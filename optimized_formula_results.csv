@@ -1,0 +1,13 @@
+Parâmetro,Valor
+Molécula,OPT-007
+SMILES,OC(=O)/C(=C/c1cn(Cc2cc(C(F)(F)F)cc(C(F)(F)F)c2)c3ncc(N)cc13)C#N
+MW,454.33 g/mol
+LogP,4.70
+TPSA,104.93 Å²
+HOMO,-99.87 eV
+LUMO,-99.87 eV
+Gap,0.00 eV
+IC50_estimado,0.0 nM
+Concentração_sérum,0.025%
+pH,5.5
+Score_total,72.5/100
