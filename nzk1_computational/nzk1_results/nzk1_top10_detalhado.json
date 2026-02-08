@@ -1,0 +1,892 @@
+[
+  {
+    "rank": 1,
+    "nome": "REF_encenicline",
+    "smiles": "O=C(c1cc2ccccc2o1)C1CN2CCC1CC2",
+    "score_final": 0.7892,
+    "propriedades": {
+      "MW": 255.126,
+      "LogP": 2.957,
+      "HBD": 0,
+      "HBA": 3,
+      "TPSA": 33.45,
+      "RotBonds": 2,
+      "MR": 73.199,
+      "nRings": 5,
+      "nAromRings": 2,
+      "nHeteroAtoms": 3,
+      "FractionCSP3": 0.438,
+      "nAtoms": 19,
+      "nBasicN": 1,
+      "pKa_est": 8.5,
+      "BertzCT": 589.466
+    },
+    "cns_mpo": 5.61,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.3514,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 1.0,
+          "peso": 0.25,
+          "contribuicao": 0.25,
+          "referencia": "encenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.1176,
+          "peso": 0.2,
+          "contribuicao": 0.0235,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.125,
+          "peso": 0.15,
+          "contribuicao": 0.0187,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.1299,
+          "peso": 0.2,
+          "contribuicao": 0.026,
+          "referencia": "tandospirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.1538,
+          "peso": 0.05,
+          "contribuicao": 0.0077,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.1733,
+          "peso": 0.1,
+          "contribuicao": 0.0173,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.1636,
+          "peso": 0.05,
+          "contribuicao": 0.0082,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "referencia",
+      "fragmento_a": "encenicline",
+      "linker": "none",
+      "fragmento_c": "none"
+    }
+  },
+  {
+    "rank": 2,
+    "nome": "REF_buspirona",
+    "smiles": "O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(CC1)c1ccccn1",
+    "score_final": 0.7746,
+    "propriedades": {
+      "MW": 384.253,
+      "LogP": 2.693,
+      "HBD": 0,
+      "HBA": 5,
+      "TPSA": 56.75,
+      "RotBonds": 6,
+      "MR": 108.979,
+      "nRings": 4,
+      "nAromRings": 1,
+      "nHeteroAtoms": 6,
+      "FractionCSP3": 0.682,
+      "nAtoms": 28,
+      "nBasicN": 3,
+      "pKa_est": 8.5,
+      "BertzCT": 659.037
+    },
+    "cns_mpo": 5.73,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.2862,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 0.137,
+          "peso": 0.25,
+          "contribuicao": 0.0343,
+          "referencia": "varenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.0862,
+          "peso": 0.2,
+          "contribuicao": 0.0172,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.0541,
+          "peso": 0.15,
+          "contribuicao": 0.0081,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 1.0,
+          "peso": 0.2,
+          "contribuicao": 0.2,
+          "referencia": "buspirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.1,
+          "peso": 0.05,
+          "contribuicao": 0.005,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.1605,
+          "peso": 0.1,
+          "contribuicao": 0.0161,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.1111,
+          "peso": 0.05,
+          "contribuicao": 0.0056,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "referencia",
+      "fragmento_a": "buspirona",
+      "linker": "none",
+      "fragmento_c": "none"
+    }
+  },
+  {
+    "rank": 3,
+    "nome": "NZK1_quinuclidina_etil_carbonil_benzisoxazol_pip",
+    "smiles": "O=C(CC1CN2CCC1CC2)c1ccc2onc(N3CCNCC3)c2c1",
+    "score_final": 0.7473,
+    "propriedades": {
+      "MW": 354.206,
+      "LogP": 2.152,
+      "HBD": 1,
+      "HBA": 6,
+      "TPSA": 61.61,
+      "RotBonds": 4,
+      "MR": 100.693,
+      "nRings": 6,
+      "nAromRings": 2,
+      "nHeteroAtoms": 6,
+      "FractionCSP3": 0.6,
+      "nAtoms": 26,
+      "nBasicN": 3,
+      "pKa_est": 8.5,
+      "BertzCT": 803.244
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.1577,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 0.2857,
+          "peso": 0.25,
+          "contribuicao": 0.0714,
+          "referencia": "encenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.127,
+          "peso": 0.2,
+          "contribuicao": 0.0254,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.1026,
+          "peso": 0.15,
+          "contribuicao": 0.0154,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.1163,
+          "peso": 0.2,
+          "contribuicao": 0.0233,
+          "referencia": "buspirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.1045,
+          "peso": 0.05,
+          "contribuicao": 0.0052,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.1209,
+          "peso": 0.1,
+          "contribuicao": 0.0121,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.0986,
+          "peso": 0.05,
+          "contribuicao": 0.0049,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "A-linker-C",
+      "fragmento_a": "quinuclidina",
+      "linker": "etil_carbonil",
+      "fragmento_c": "benzisoxazol_pip"
+    }
+  },
+  {
+    "rank": 4,
+    "nome": "NZK1_azabiciclo_222_etil_carbonil_benzisoxazol_pip",
+    "smiles": "O=C(CC1CN2CCC1CC2)c1ccc2onc(N3CCNCC3)c2c1",
+    "score_final": 0.7473,
+    "propriedades": {
+      "MW": 354.206,
+      "LogP": 2.152,
+      "HBD": 1,
+      "HBA": 6,
+      "TPSA": 61.61,
+      "RotBonds": 4,
+      "MR": 100.693,
+      "nRings": 6,
+      "nAromRings": 2,
+      "nHeteroAtoms": 6,
+      "FractionCSP3": 0.6,
+      "nAtoms": 26,
+      "nBasicN": 3,
+      "pKa_est": 8.5,
+      "BertzCT": 803.244
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.1577,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 0.2857,
+          "peso": 0.25,
+          "contribuicao": 0.0714,
+          "referencia": "encenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.127,
+          "peso": 0.2,
+          "contribuicao": 0.0254,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.1026,
+          "peso": 0.15,
+          "contribuicao": 0.0154,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.1163,
+          "peso": 0.2,
+          "contribuicao": 0.0233,
+          "referencia": "buspirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.1045,
+          "peso": 0.05,
+          "contribuicao": 0.0052,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.1209,
+          "peso": 0.1,
+          "contribuicao": 0.0121,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.0986,
+          "peso": 0.05,
+          "contribuicao": 0.0049,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "A-linker-C",
+      "fragmento_a": "azabiciclo_222",
+      "linker": "etil_carbonil",
+      "fragmento_c": "benzisoxazol_pip"
+    }
+  },
+  {
+    "rank": 5,
+    "nome": "REF_varenicline",
+    "smiles": "C1CN2CC3=CC=C(C=C3C2C1)C1=CN=CC=C1",
+    "score_final": 0.7455,
+    "propriedades": {
+      "MW": 236.131,
+      "LogP": 3.399,
+      "HBD": 0,
+      "HBA": 2,
+      "TPSA": 16.13,
+      "RotBonds": 1,
+      "MR": 72.058,
+      "nRings": 4,
+      "nAromRings": 2,
+      "nHeteroAtoms": 2,
+      "FractionCSP3": 0.312,
+      "nAtoms": 18,
+      "nBasicN": 1,
+      "pKa_est": 8.5,
+      "BertzCT": 576.906
+    },
+    "cns_mpo": 4.75,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.3254,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 1.0,
+          "peso": 0.25,
+          "contribuicao": 0.25,
+          "referencia": "varenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.0545,
+          "peso": 0.2,
+          "contribuicao": 0.0109,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.058,
+          "peso": 0.15,
+          "contribuicao": 0.0087,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.1579,
+          "peso": 0.2,
+          "contribuicao": 0.0316,
+          "referencia": "tandospirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.0893,
+          "peso": 0.05,
+          "contribuicao": 0.0045,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.1558,
+          "peso": 0.1,
+          "contribuicao": 0.0156,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.0833,
+          "peso": 0.05,
+          "contribuicao": 0.0042,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "referencia",
+      "fragmento_a": "varenicline",
+      "linker": "none",
+      "fragmento_c": "none"
+    }
+  },
+  {
+    "rank": 6,
+    "nome": "NZK1_quinuclidinona_etil_carbonil_arilpiperazina_base",
+    "smiles": "O=C(CC1CN2CCC1CC2=O)c1ccc(N2CCNCC2)cc1",
+    "score_final": 0.7454,
+    "propriedades": {
+      "MW": 327.195,
+      "LogP": 1.537,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 52.65,
+      "RotBonds": 4,
+      "MR": 93.266,
+      "nRings": 5,
+      "nAromRings": 1,
+      "nHeteroAtoms": 5,
+      "FractionCSP3": 0.579,
+      "nAtoms": 24,
+      "nBasicN": 3,
+      "pKa_est": 8.5,
+      "BertzCT": 622.004
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.1512,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 0.209,
+          "peso": 0.25,
+          "contribuicao": 0.0522,
+          "referencia": "encenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.1273,
+          "peso": 0.2,
+          "contribuicao": 0.0255,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.1,
+          "peso": 0.15,
+          "contribuicao": 0.015,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.16,
+          "peso": 0.2,
+          "contribuicao": 0.032,
+          "referencia": "buspirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.1207,
+          "peso": 0.05,
+          "contribuicao": 0.006,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.1481,
+          "peso": 0.1,
+          "contribuicao": 0.0148,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.1129,
+          "peso": 0.05,
+          "contribuicao": 0.0056,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "A-linker-C",
+      "fragmento_a": "quinuclidinona",
+      "linker": "etil_carbonil",
+      "fragmento_c": "arilpiperazina_base"
+    }
+  },
+  {
+    "rank": 7,
+    "nome": "NZK1_quinuclidinona_etileno_benzisoxazol_pip",
+    "smiles": "O=C1CC2CCN1CC2CCc1ccc2onc(N3CCNCC3)c2c1",
+    "score_final": 0.744,
+    "propriedades": {
+      "MW": 354.206,
+      "LogP": 2.038,
+      "HBD": 1,
+      "HBA": 5,
+      "TPSA": 61.61,
+      "RotBonds": 4,
+      "MR": 100.207,
+      "nRings": 6,
+      "nAromRings": 2,
+      "nHeteroAtoms": 6,
+      "FractionCSP3": 0.6,
+      "nAtoms": 26,
+      "nBasicN": 3,
+      "pKa_est": 8.5,
+      "BertzCT": 811.244
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.1467,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 0.2133,
+          "peso": 0.25,
+          "contribuicao": 0.0533,
+          "referencia": "encenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.1429,
+          "peso": 0.2,
+          "contribuicao": 0.0286,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.0741,
+          "peso": 0.15,
+          "contribuicao": 0.0111,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.1548,
+          "peso": 0.2,
+          "contribuicao": 0.031,
+          "referencia": "buspirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.0714,
+          "peso": 0.05,
+          "contribuicao": 0.0036,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.1573,
+          "peso": 0.1,
+          "contribuicao": 0.0157,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.0676,
+          "peso": 0.05,
+          "contribuicao": 0.0034,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "A-linker-C",
+      "fragmento_a": "quinuclidinona",
+      "linker": "etileno",
+      "fragmento_c": "benzisoxazol_pip"
+    }
+  },
+  {
+    "rank": 8,
+    "nome": "NZK1_quinuclidinona_etil_carbonil_benzisoxazol_pip",
+    "smiles": "O=C(CC1CN2CCC1CC2=O)c1ccc2onc(N3CCNCC3)c2c1",
+    "score_final": 0.7432,
+    "propriedades": {
+      "MW": 368.185,
+      "LogP": 1.679,
+      "HBD": 1,
+      "HBA": 6,
+      "TPSA": 78.68,
+      "RotBonds": 4,
+      "MR": 100.833,
+      "nRings": 6,
+      "nAromRings": 2,
+      "nHeteroAtoms": 7,
+      "FractionCSP3": 0.55,
+      "nAtoms": 27,
+      "nBasicN": 3,
+      "pKa_est": 8.5,
+      "BertzCT": 886.479
+    },
+    "cns_mpo": 5.94,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.1525,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 0.2237,
+          "peso": 0.25,
+          "contribuicao": 0.0559,
+          "referencia": "encenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.1385,
+          "peso": 0.2,
+          "contribuicao": 0.0277,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.0988,
+          "peso": 0.15,
+          "contribuicao": 0.0148,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.1512,
+          "peso": 0.2,
+          "contribuicao": 0.0302,
+          "referencia": "buspirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.1,
+          "peso": 0.05,
+          "contribuicao": 0.005,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.1413,
+          "peso": 0.1,
+          "contribuicao": 0.0141,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.0946,
+          "peso": 0.05,
+          "contribuicao": 0.0047,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "A-linker-C",
+      "fragmento_a": "quinuclidinona",
+      "linker": "etil_carbonil",
+      "fragmento_c": "benzisoxazol_pip"
+    }
+  },
+  {
+    "rank": 9,
+    "nome": "NZK1_quinuclidina_etil_carbonil_arilpiperazina_base",
+    "smiles": "O=C(CC1CN2CCC1CC2)c1ccc(N2CCNCC2)cc1",
+    "score_final": 0.7425,
+    "propriedades": {
+      "MW": 313.215,
+      "LogP": 2.011,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 35.58,
+      "RotBonds": 4,
+      "MR": 93.126,
+      "nRings": 5,
+      "nAromRings": 1,
+      "nHeteroAtoms": 4,
+      "FractionCSP3": 0.632,
+      "nAtoms": 23,
+      "nBasicN": 3,
+      "pKa_est": 8.5,
+      "BertzCT": 542.238
+    },
+    "cns_mpo": 5.89,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.1568,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 0.2787,
+          "peso": 0.25,
+          "contribuicao": 0.0697,
+          "referencia": "encenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.1132,
+          "peso": 0.2,
+          "contribuicao": 0.0226,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.1045,
+          "peso": 0.15,
+          "contribuicao": 0.0157,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.12,
+          "peso": 0.2,
+          "contribuicao": 0.024,
+          "referencia": "buspirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.1273,
+          "peso": 0.05,
+          "contribuicao": 0.0064,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.125,
+          "peso": 0.1,
+          "contribuicao": 0.0125,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.1186,
+          "peso": 0.05,
+          "contribuicao": 0.0059,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "A-linker-C",
+      "fragmento_a": "quinuclidina",
+      "linker": "etil_carbonil",
+      "fragmento_c": "arilpiperazina_base"
+    }
+  },
+  {
+    "rank": 10,
+    "nome": "NZK1_azabiciclo_222_etil_carbonil_arilpiperazina_base",
+    "smiles": "O=C(CC1CN2CCC1CC2)c1ccc(N2CCNCC2)cc1",
+    "score_final": 0.7425,
+    "propriedades": {
+      "MW": 313.215,
+      "LogP": 2.011,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 35.58,
+      "RotBonds": 4,
+      "MR": 93.126,
+      "nRings": 5,
+      "nAromRings": 1,
+      "nHeteroAtoms": 4,
+      "FractionCSP3": 0.632,
+      "nAtoms": 23,
+      "nBasicN": 3,
+      "pKa_est": 8.5,
+      "BertzCT": 542.238
+    },
+    "cns_mpo": 5.89,
+    "bbb": {
+      "score": 5,
+      "max": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "lipinski": {
+      "aprovado": true,
+      "violacoes": 0,
+      "detalhes": []
+    },
+    "multi_target": {
+      "score_total": 0.1568,
+      "por_alvo": {
+        "alpha7_nAChR": {
+          "similaridade": 0.2787,
+          "peso": 0.25,
+          "contribuicao": 0.0697,
+          "referencia": "encenicline"
+        },
+        "NMDA_glycine": {
+          "similaridade": 0.1132,
+          "peso": 0.2,
+          "contribuicao": 0.0226,
+          "referencia": "d_cicloserina"
+        },
+        "D1_PAM": {
+          "similaridade": 0.1045,
+          "peso": 0.15,
+          "contribuicao": 0.0157,
+          "referencia": "DETQ"
+        },
+        "5HT1A": {
+          "similaridade": 0.12,
+          "peso": 0.2,
+          "contribuicao": 0.024,
+          "referencia": "buspirona"
+        },
+        "alpha2A_adrenergic": {
+          "similaridade": 0.1273,
+          "peso": 0.05,
+          "contribuicao": 0.0064,
+          "referencia": "guanfacina"
+        },
+        "AChE_inibidor": {
+          "similaridade": 0.125,
+          "peso": 0.1,
+          "contribuicao": 0.0125,
+          "referencia": "donepezila"
+        },
+        "multiplo": {
+          "similaridade": 0.1186,
+          "peso": 0.05,
+          "contribuicao": 0.0059,
+          "referencia": "modafinil"
+        }
+      }
+    },
+    "alertas_estruturais": [],
+    "composicao": {
+      "estrategia": "A-linker-C",
+      "fragmento_a": "azabiciclo_222",
+      "linker": "etil_carbonil",
+      "fragmento_c": "arilpiperazina_base"
+    }
+  }
+]

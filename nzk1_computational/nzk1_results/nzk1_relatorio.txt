@@ -1,0 +1,63 @@
+======================================================================
+  NZK-1 COMPUTATIONAL PIPELINE — RELATÓRIO FINAL
+======================================================================
+
+  Data: 2026-02-08 08:26
+  Total candidatos avaliados: 183
+  Passam Lipinski:            183
+  CNS MPO ≥ 4.0:              181
+  BBB penetração ALTA:         173
+  Sem alertas:                 153
+
+  TOP 5 CANDIDATOS:
+  ------------------------------------------------------------------
+
+  #1: REF_encenicline
+      SMILES: O=C(c1cc2ccccc2o1)C1CN2CCC1CC2
+      Score Final: 0.7892
+      MW=255.1  LogP=2.96  TPSA=33.5  CNS_MPO=5.61
+      BBB: ALTA (1.0)
+      Multi-target score: 0.3514
+      ALERTAS: Nenhum (limpo)
+
+  #2: REF_buspirona
+      SMILES: O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(CC1)c1ccccn1
+      Score Final: 0.7746
+      MW=384.3  LogP=2.69  TPSA=56.8  CNS_MPO=5.73
+      BBB: ALTA (1.0)
+      Multi-target score: 0.2862
+      ALERTAS: Nenhum (limpo)
+
+  #3: NZK1_quinuclidina_etil_carbonil_benzisoxazol_pip
+      SMILES: O=C(CC1CN2CCC1CC2)c1ccc2onc(N3CCNCC3)c2c1
+      Score Final: 0.7473
+      MW=354.2  LogP=2.15  TPSA=61.6  CNS_MPO=6.0
+      BBB: ALTA (1.0)
+      Multi-target score: 0.1577
+      ALERTAS: Nenhum (limpo)
+
+  #4: NZK1_azabiciclo_222_etil_carbonil_benzisoxazol_pip
+      SMILES: O=C(CC1CN2CCC1CC2)c1ccc2onc(N3CCNCC3)c2c1
+      Score Final: 0.7473
+      MW=354.2  LogP=2.15  TPSA=61.6  CNS_MPO=6.0
+      BBB: ALTA (1.0)
+      Multi-target score: 0.1577
+      ALERTAS: Nenhum (limpo)
+
+  #5: REF_varenicline
+      SMILES: C1CN2CC3=CC=C(C=C3C2C1)C1=CN=CC=C1
+      Score Final: 0.7455
+      MW=236.1  LogP=3.40  TPSA=16.1  CNS_MPO=4.75
+      BBB: ALTA (1.0)
+      Multi-target score: 0.3254
+      ALERTAS: Nenhum (limpo)
+
+
+======================================================================
+  METODOLOGIA:
+  - Geração: Combinação de fragmentos farmacofóricos
+  - Avaliação: RDKit descritores + CNS MPO + BBB heurístico
+  - Scoring: Tanimoto similarity (Morgan FP r=2) vs referências
+  - Filtros: Lipinski + PAINS + alertas manuais CNS
+  - Score final: ponderação multi-critério
+======================================================================
