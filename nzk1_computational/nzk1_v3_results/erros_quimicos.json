@@ -1,0 +1,361 @@
+{
+  "stats": {
+    "tentativas": 999,
+    "validos": 500,
+    "erros_valencia": 308,
+    "erros_sanitizacao": 0,
+    "duplicados": 0
+  },
+  "erros_detalhados": [
+    {
+      "combo": "quinuclidina+C2+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 10 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 10 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C3+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C4+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CO+fenilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 10 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 10 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CO+pyrimidilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 10 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 10 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CO+benzisoxazolpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 10 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 10 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CO+piridilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 10 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 10 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CO+triazinpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 10 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 10 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CO+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 10 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 10 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CONH+fenilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CONH+pyrimidilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CONH+benzisoxazolpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CONH+piridilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CONH+triazinpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2CONH+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2OC+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C3NH+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2SO2N+fenilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2SO2N+pyrimidilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2SO2N+benzisoxazolpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2SO2N+piridilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2SO2N+triazinpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidina+C2SO2N+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C3+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C4+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CO+fenilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CO+pyrimidilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CO+benzisoxazolpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CO+piridilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CO+triazinpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CO+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CONH+fenilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CONH+pyrimidilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CONH+benzisoxazolpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CONH+piridilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CONH+triazinpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2CONH+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2OC+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C3NH+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2SO2N+fenilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2SO2N+pyrimidilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2SO2N+benzisoxazolpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2SO2N+piridilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2SO2N+triazinpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "3OH_quinuclidina+C2SO2N+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 O, 3, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidinona+C2+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidinona+C3+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 12 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 12 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidinona+C4+clorofenilpip",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 13 Cl, 2, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 13 Cl, 2, is greater than permitted"
+      ]
+    },
+    {
+      "combo": "quinuclidinona+C2CO+fenilpiperazina",
+      "erros": [
+        "Val\u00eancia: Explicit valence for atom # 11 O, 3, is greater than permitted",
+        "Sanitiza\u00e7\u00e3o: Explicit valence for atom # 11 O, 3, is greater than permitted"
+      ]
+    }
+  ]
+}

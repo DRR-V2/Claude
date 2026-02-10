@@ -1,0 +1,1570 @@
+[
+  {
+    "rank": 1,
+    "nome": "REF_guanfacina",
+    "smiles": "NC(=O)Cc1c(Cl)cccc1Cl",
+    "formula": "C8H7Cl2NO",
+    "composicao_elementar": {
+      "N": 6.86,
+      "C": 47.09,
+      "O": 7.84,
+      "Cl": 34.75,
+      "H": 3.46
+    },
+    "contagem_atomos": {
+      "N": 1,
+      "H": 7,
+      "C": 8,
+      "O": 1,
+      "Cl": 2
+    },
+    "score_final": 0.7619,
+    "propriedades": {
+      "MW": 202.9905,
+      "LogP": 2.021,
+      "HBD": 1,
+      "HBA": 1,
+      "TPSA": 43.09,
+      "RotBonds": 2,
+      "nRings": 1,
+      "nAromRings": 1,
+      "FractionCSP3": 0.125,
+      "nAtoms": 12,
+      "nBasicN": 1,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 2.1,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 6,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "histaminergico",
+      "multiplo",
+      "noradrenergico",
+      "sigma"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.1538,
+        "peso": 0.12,
+        "contrib": 0.0185,
+        "ref": "encenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.1633,
+        "peso": 0.06,
+        "contrib": 0.0098,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.1077,
+        "peso": 0.05,
+        "contrib": 0.0054,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.0789,
+        "peso": 0.1,
+        "contrib": 0.0079,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.125,
+        "peso": 0.06,
+        "contrib": 0.0075,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.0769,
+        "peso": 0.05,
+        "contrib": 0.0038,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.12,
+        "peso": 0.1,
+        "contrib": 0.012,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.1579,
+        "peso": 0.04,
+        "contrib": 0.0063,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.1,
+        "peso": 0.1,
+        "contrib": 0.01,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.0833,
+        "peso": 0.06,
+        "contrib": 0.005,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.127,
+        "peso": 0.04,
+        "contrib": 0.0051,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 1.0,
+        "peso": 0.05,
+        "contrib": 0.05,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.1636,
+        "peso": 0.06,
+        "contrib": 0.0098,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.1607,
+        "peso": 0.05,
+        "contrib": 0.008,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.1324,
+        "peso": 0.04,
+        "contrib": 0.0053,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.2973,
+        "peso": 0.02,
+        "contrib": 0.0059,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.1607,
+      "diazepam": 0.1321,
+      "morfina": 0.082,
+      "THC": 0.0615
+    },
+    "alertas": [],
+    "estrategia": "referencia"
+  },
+  {
+    "rank": 2,
+    "nome": "REF_encenicline",
+    "smiles": "O=C(c1cc2ccccc2o1)C1CN2CCC1CC2",
+    "formula": "C16H17NO2",
+    "composicao_elementar": {
+      "O": 12.53,
+      "C": 75.27,
+      "N": 5.49,
+      "H": 6.71
+    },
+    "contagem_atomos": {
+      "O": 2,
+      "H": 17,
+      "C": 16,
+      "N": 1
+    },
+    "score_final": 0.7451,
+    "propriedades": {
+      "MW": 255.1259,
+      "LogP": 2.957,
+      "HBD": 0,
+      "HBA": 3,
+      "TPSA": 33.45,
+      "RotBonds": 2,
+      "nRings": 5,
+      "nAromRings": 2,
+      "FractionCSP3": 0.438,
+      "nAtoms": 19,
+      "nBasicN": 1,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 5.61,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 4.1,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 6,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "glutamatergico",
+      "multiplo",
+      "noradrenergico",
+      "serotoninergico"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 1.0,
+        "peso": 0.12,
+        "contrib": 0.12,
+        "ref": "encenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.1406,
+        "peso": 0.06,
+        "contrib": 0.0084,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.1733,
+        "peso": 0.05,
+        "contrib": 0.0087,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.1176,
+        "peso": 0.1,
+        "contrib": 0.0118,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.2154,
+        "peso": 0.06,
+        "contrib": 0.0129,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.1316,
+        "peso": 0.05,
+        "contrib": 0.0066,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.125,
+        "peso": 0.1,
+        "contrib": 0.0125,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.2615,
+        "peso": 0.04,
+        "contrib": 0.0105,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.1233,
+        "peso": 0.1,
+        "contrib": 0.0123,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.1408,
+        "peso": 0.06,
+        "contrib": 0.0084,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.16,
+        "peso": 0.04,
+        "contrib": 0.0064,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.1538,
+        "peso": 0.05,
+        "contrib": 0.0077,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.1268,
+        "peso": 0.06,
+        "contrib": 0.0076,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.125,
+        "peso": 0.05,
+        "contrib": 0.0063,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.1205,
+        "peso": 0.04,
+        "contrib": 0.0048,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.1636,
+        "peso": 0.02,
+        "contrib": 0.0033,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.125,
+      "diazepam": 0.1343,
+      "morfina": 0.1389,
+      "THC": 0.1039
+    },
+    "alertas": [],
+    "estrategia": "referencia"
+  },
+  {
+    "rank": 3,
+    "nome": "REF_CDPPB",
+    "smiles": "O=C(NC1CCCCC1)c1cc(-c2ccccn2)no1",
+    "formula": "C15H17N3O2",
+    "composicao_elementar": {
+      "O": 11.79,
+      "C": 66.4,
+      "N": 15.49,
+      "H": 6.32
+    },
+    "contagem_atomos": {
+      "O": 2,
+      "H": 17,
+      "C": 15,
+      "N": 3
+    },
+    "score_final": 0.7443,
+    "propriedades": {
+      "MW": 271.1321,
+      "LogP": 2.799,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 68.02,
+      "RotBonds": 3,
+      "nRings": 3,
+      "nAromRings": 2,
+      "FractionCSP3": 0.4,
+      "nAtoms": 20,
+      "nBasicN": 1,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 5.85,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 2.6,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 5,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "glutamatergico",
+      "pde",
+      "serotoninergico"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.2154,
+        "peso": 0.12,
+        "contrib": 0.0258,
+        "ref": "encenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.1176,
+        "peso": 0.06,
+        "contrib": 0.0071,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.1375,
+        "peso": 0.05,
+        "contrib": 0.0069,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.0909,
+        "peso": 0.1,
+        "contrib": 0.0091,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 1.0,
+        "peso": 0.06,
+        "contrib": 0.06,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.1266,
+        "peso": 0.05,
+        "contrib": 0.0063,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.1194,
+        "peso": 0.1,
+        "contrib": 0.0119,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.2879,
+        "peso": 0.04,
+        "contrib": 0.0115,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.1972,
+        "peso": 0.1,
+        "contrib": 0.0197,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.1351,
+        "peso": 0.06,
+        "contrib": 0.0081,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.125,
+        "peso": 0.04,
+        "contrib": 0.005,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.125,
+        "peso": 0.05,
+        "contrib": 0.0063,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.137,
+        "peso": 0.06,
+        "contrib": 0.0082,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.0909,
+        "peso": 0.05,
+        "contrib": 0.0045,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.2152,
+        "peso": 0.04,
+        "contrib": 0.0086,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.1356,
+        "peso": 0.02,
+        "contrib": 0.0027,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.0909,
+      "diazepam": 0.1286,
+      "morfina": 0.1184,
+      "THC": 0.1139
+    },
+    "alertas": [],
+    "estrategia": "referencia"
+  },
+  {
+    "rank": 4,
+    "nome": "REF_buspirona",
+    "smiles": "O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ccccn2)CC1",
+    "formula": "C22H32N4O2",
+    "composicao_elementar": {
+      "O": 8.32,
+      "C": 68.72,
+      "N": 14.57,
+      "H": 8.39
+    },
+    "contagem_atomos": {
+      "O": 2,
+      "H": 32,
+      "C": 22,
+      "N": 4
+    },
+    "score_final": 0.7323,
+    "propriedades": {
+      "MW": 384.2525,
+      "LogP": 2.693,
+      "HBD": 0,
+      "HBA": 5,
+      "TPSA": 56.75,
+      "RotBonds": 6,
+      "nRings": 4,
+      "nAromRings": 1,
+      "FractionCSP3": 0.682,
+      "nAtoms": 28,
+      "nBasicN": 3,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 5.73,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 3.6,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 5,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "glutamatergico",
+      "serotoninergico",
+      "sigma"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.137,
+        "peso": 0.12,
+        "contrib": 0.0164,
+        "ref": "varenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.0972,
+        "peso": 0.06,
+        "contrib": 0.0058,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.1605,
+        "peso": 0.05,
+        "contrib": 0.008,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.0862,
+        "peso": 0.1,
+        "contrib": 0.0086,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.1972,
+        "peso": 0.06,
+        "contrib": 0.0118,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.0952,
+        "peso": 0.05,
+        "contrib": 0.0048,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.0541,
+        "peso": 0.1,
+        "contrib": 0.0054,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.1733,
+        "peso": 0.04,
+        "contrib": 0.0069,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 1.0,
+        "peso": 0.1,
+        "contrib": 0.1,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.16,
+        "peso": 0.06,
+        "contrib": 0.0096,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.1923,
+        "peso": 0.04,
+        "contrib": 0.0077,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.1,
+        "peso": 0.05,
+        "contrib": 0.005,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.1169,
+        "peso": 0.06,
+        "contrib": 0.007,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.2083,
+        "peso": 0.05,
+        "contrib": 0.0104,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.1,
+        "peso": 0.04,
+        "contrib": 0.004,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.1111,
+        "peso": 0.02,
+        "contrib": 0.0022,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.2083,
+      "diazepam": 0.1714,
+      "morfina": 0.1282,
+      "THC": 0.0706
+    },
+    "alertas": [],
+    "estrategia": "referencia"
+  },
+  {
+    "rank": 5,
+    "nome": "REF_SB277011A",
+    "smiles": "O=C(NC1CCN(Cc2ccccc2)CC1)c1cc2ccccc2[nH]1",
+    "formula": "C21H23N3O",
+    "composicao_elementar": {
+      "O": 4.8,
+      "C": 75.65,
+      "N": 12.6,
+      "H": 6.95
+    },
+    "contagem_atomos": {
+      "O": 1,
+      "H": 23,
+      "C": 21,
+      "N": 3
+    },
+    "score_final": 0.7222,
+    "propriedades": {
+      "MW": 333.1841,
+      "LogP": 3.562,
+      "HBD": 2,
+      "HBA": 2,
+      "TPSA": 48.13,
+      "RotBonds": 4,
+      "nRings": 4,
+      "nAromRings": 3,
+      "FractionCSP3": 0.286,
+      "nAtoms": 25,
+      "nBasicN": 2,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 4.69,
+    "bbb": {
+      "score": 4,
+      "probabilidade": 0.8,
+      "categoria": "ALTA"
+    },
+    "sa_score": 3.2,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 8,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "glutamatergico",
+      "multiplo",
+      "noradrenergico",
+      "pde",
+      "serotoninergico",
+      "sigma"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.2615,
+        "peso": 0.12,
+        "contrib": 0.0314,
+        "ref": "encenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.1791,
+        "peso": 0.06,
+        "contrib": 0.0107,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.3056,
+        "peso": 0.05,
+        "contrib": 0.0153,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.1053,
+        "peso": 0.1,
+        "contrib": 0.0105,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.2879,
+        "peso": 0.06,
+        "contrib": 0.0173,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.1084,
+        "peso": 0.05,
+        "contrib": 0.0054,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.1143,
+        "peso": 0.1,
+        "contrib": 0.0114,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 1.0,
+        "peso": 0.04,
+        "contrib": 0.04,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.1733,
+        "peso": 0.1,
+        "contrib": 0.0173,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.16,
+        "peso": 0.06,
+        "contrib": 0.0096,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.1772,
+        "peso": 0.04,
+        "contrib": 0.0071,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.1579,
+        "peso": 0.05,
+        "contrib": 0.0079,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.1467,
+        "peso": 0.06,
+        "contrib": 0.0088,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.16,
+        "peso": 0.05,
+        "contrib": 0.008,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.1647,
+        "peso": 0.04,
+        "contrib": 0.0066,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.1667,
+        "peso": 0.02,
+        "contrib": 0.0033,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.16,
+      "diazepam": 0.1549,
+      "morfina": 0.1139,
+      "THC": 0.0964
+    },
+    "alertas": [],
+    "estrategia": "referencia"
+  },
+  {
+    "rank": 6,
+    "nome": "NZK3d_quinuclidina_C3_pirazina_amida",
+    "smiles": "O=C(NCCCC1CC2CCN1CC2)c1cnccn1",
+    "formula": "C15H22N4O",
+    "composicao_elementar": {
+      "C": 65.67,
+      "N": 20.42,
+      "O": 5.83,
+      "H": 8.08
+    },
+    "contagem_atomos": {
+      "C": 15,
+      "H": 22,
+      "N": 4,
+      "O": 1
+    },
+    "score_final": 0.7189,
+    "propriedades": {
+      "MW": 274.1794,
+      "LogP": 1.471,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 58.12,
+      "RotBonds": 5,
+      "nRings": 4,
+      "nAromRings": 1,
+      "FractionCSP3": 0.667,
+      "nAtoms": 20,
+      "nBasicN": 2,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 3.8,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 5,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "glutamatergico",
+      "pde",
+      "serotoninergico"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.1884,
+        "peso": 0.12,
+        "contrib": 0.0226,
+        "ref": "varenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.0685,
+        "peso": 0.06,
+        "contrib": 0.0041,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.1071,
+        "peso": 0.05,
+        "contrib": 0.0054,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.069,
+        "peso": 0.1,
+        "contrib": 0.0069,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.2,
+        "peso": 0.06,
+        "contrib": 0.012,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.0706,
+        "peso": 0.05,
+        "contrib": 0.0035,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.0845,
+        "peso": 0.1,
+        "contrib": 0.0085,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.1918,
+        "peso": 0.04,
+        "contrib": 0.0077,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.1447,
+        "peso": 0.1,
+        "contrib": 0.0145,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.1467,
+        "peso": 0.06,
+        "contrib": 0.0088,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.1795,
+        "peso": 0.04,
+        "contrib": 0.0072,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.1017,
+        "peso": 0.05,
+        "contrib": 0.0051,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.0897,
+        "peso": 0.06,
+        "contrib": 0.0054,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.1316,
+        "peso": 0.05,
+        "contrib": 0.0066,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.1529,
+        "peso": 0.04,
+        "contrib": 0.0061,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.0952,
+        "peso": 0.02,
+        "contrib": 0.0019,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.1316,
+      "diazepam": 0.08,
+      "morfina": 0.1013,
+      "THC": 0.0843
+    },
+    "alertas": [],
+    "estrategia": "core+link+nmda"
+  },
+  {
+    "rank": 7,
+    "nome": "NZK3d_quinuclidina_C2_pirazina_amida",
+    "smiles": "O=C(NCCC1CC2CCN1CC2)c1cnccn1",
+    "formula": "C14H20N4O",
+    "composicao_elementar": {
+      "C": 64.59,
+      "N": 21.52,
+      "O": 6.15,
+      "H": 7.74
+    },
+    "contagem_atomos": {
+      "C": 14,
+      "H": 20,
+      "N": 4,
+      "O": 1
+    },
+    "score_final": 0.7188,
+    "propriedades": {
+      "MW": 260.1637,
+      "LogP": 1.081,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 58.12,
+      "RotBonds": 4,
+      "nRings": 4,
+      "nAromRings": 1,
+      "FractionCSP3": 0.643,
+      "nAtoms": 19,
+      "nBasicN": 2,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 3.8,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 5,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "glutamatergico",
+      "pde",
+      "serotoninergico"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.194,
+        "peso": 0.12,
+        "contrib": 0.0233,
+        "ref": "varenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.0704,
+        "peso": 0.06,
+        "contrib": 0.0042,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.1098,
+        "peso": 0.05,
+        "contrib": 0.0055,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.0714,
+        "peso": 0.1,
+        "contrib": 0.0071,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.2059,
+        "peso": 0.06,
+        "contrib": 0.0124,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.0723,
+        "peso": 0.05,
+        "contrib": 0.0036,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.087,
+        "peso": 0.1,
+        "contrib": 0.0087,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.1972,
+        "peso": 0.04,
+        "contrib": 0.0079,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.1333,
+        "peso": 0.1,
+        "contrib": 0.0133,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.1351,
+        "peso": 0.06,
+        "contrib": 0.0081,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.1688,
+        "peso": 0.04,
+        "contrib": 0.0068,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.1053,
+        "peso": 0.05,
+        "contrib": 0.0053,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.0921,
+        "peso": 0.06,
+        "contrib": 0.0055,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.12,
+        "peso": 0.05,
+        "contrib": 0.006,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.1566,
+        "peso": 0.04,
+        "contrib": 0.0063,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.0984,
+        "peso": 0.02,
+        "contrib": 0.002,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.12,
+      "diazepam": 0.0822,
+      "morfina": 0.1039,
+      "THC": 0.0732
+    },
+    "alertas": [],
+    "estrategia": "core+link+nmda"
+  },
+  {
+    "rank": 8,
+    "nome": "NZK3d_quinuclidina_C4_pirazina_amida",
+    "smiles": "O=C(NCCCCC1CC2CCN1CC2)c1cnccn1",
+    "formula": "C16H24N4O",
+    "composicao_elementar": {
+      "C": 66.64,
+      "N": 19.43,
+      "O": 5.55,
+      "H": 8.39
+    },
+    "contagem_atomos": {
+      "C": 16,
+      "H": 24,
+      "N": 4,
+      "O": 1
+    },
+    "score_final": 0.7185,
+    "propriedades": {
+      "MW": 288.195,
+      "LogP": 1.861,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 58.12,
+      "RotBonds": 6,
+      "nRings": 4,
+      "nAromRings": 1,
+      "FractionCSP3": 0.688,
+      "nAtoms": 21,
+      "nBasicN": 2,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 3.8,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 5,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "glutamatergico",
+      "pde",
+      "serotoninergico"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.1857,
+        "peso": 0.12,
+        "contrib": 0.0223,
+        "ref": "varenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.0676,
+        "peso": 0.06,
+        "contrib": 0.0041,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.1059,
+        "peso": 0.05,
+        "contrib": 0.0053,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.0678,
+        "peso": 0.1,
+        "contrib": 0.0068,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.1972,
+        "peso": 0.06,
+        "contrib": 0.0118,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.0698,
+        "peso": 0.05,
+        "contrib": 0.0035,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.0833,
+        "peso": 0.1,
+        "contrib": 0.0083,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.1892,
+        "peso": 0.04,
+        "contrib": 0.0076,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.1429,
+        "peso": 0.1,
+        "contrib": 0.0143,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.1447,
+        "peso": 0.06,
+        "contrib": 0.0087,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.1772,
+        "peso": 0.04,
+        "contrib": 0.0071,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.1,
+        "peso": 0.05,
+        "contrib": 0.005,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.0886,
+        "peso": 0.06,
+        "contrib": 0.0053,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.1299,
+        "peso": 0.05,
+        "contrib": 0.0065,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.1512,
+        "peso": 0.04,
+        "contrib": 0.006,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.0938,
+        "peso": 0.02,
+        "contrib": 0.0019,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.1299,
+      "diazepam": 0.0789,
+      "morfina": 0.1,
+      "THC": 0.0833
+    },
+    "alertas": [],
+    "estrategia": "core+link+nmda"
+  },
+  {
+    "rank": 9,
+    "nome": "REF_modafinil",
+    "smiles": "NC(=O)CS(=O)C(c1ccccc1)c1ccccc1",
+    "formula": "C15H15NO2S",
+    "composicao_elementar": {
+      "N": 5.12,
+      "C": 65.91,
+      "O": 11.71,
+      "S": 11.73,
+      "H": 5.53
+    },
+    "contagem_atomos": {
+      "N": 1,
+      "H": 15,
+      "C": 15,
+      "O": 2,
+      "S": 1
+    },
+    "score_final": 0.7163,
+    "propriedades": {
+      "MW": 273.0823,
+      "LogP": 2.01,
+      "HBD": 1,
+      "HBA": 2,
+      "TPSA": 60.16,
+      "RotBonds": 5,
+      "nRings": 2,
+      "nAromRings": 2,
+      "FractionCSP3": 0.133,
+      "nAtoms": 19,
+      "nBasicN": 1,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 3.1,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 4,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "multiplo",
+      "noradrenergico"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.1636,
+        "peso": 0.12,
+        "contrib": 0.0196,
+        "ref": "encenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.1509,
+        "peso": 0.06,
+        "contrib": 0.0091,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.1176,
+        "peso": 0.05,
+        "contrib": 0.0059,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.0714,
+        "peso": 0.1,
+        "contrib": 0.0071,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.1356,
+        "peso": 0.06,
+        "contrib": 0.0081,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.0882,
+        "peso": 0.05,
+        "contrib": 0.0044,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.1111,
+        "peso": 0.1,
+        "contrib": 0.0111,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.1667,
+        "peso": 0.04,
+        "contrib": 0.0067,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.1111,
+        "peso": 0.1,
+        "contrib": 0.0111,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.0952,
+        "peso": 0.06,
+        "contrib": 0.0057,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.1194,
+        "peso": 0.04,
+        "contrib": 0.0048,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.2973,
+        "peso": 0.05,
+        "contrib": 0.0149,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.0968,
+        "peso": 0.06,
+        "contrib": 0.0058,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.1311,
+        "peso": 0.05,
+        "contrib": 0.0066,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.0946,
+        "peso": 0.04,
+        "contrib": 0.0038,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 1.0,
+        "peso": 0.02,
+        "contrib": 0.02,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.1311,
+      "diazepam": 0.1228,
+      "morfina": 0.0769,
+      "THC": 0.058
+    },
+    "alertas": [],
+    "estrategia": "referencia"
+  },
+  {
+    "rank": 10,
+    "nome": "NZK3d_azanorbornano_C3_pirazina_amida",
+    "smiles": "O=C(NCCCN1CC2CCC1C2)c1cnccn1",
+    "formula": "C14H20N4O",
+    "composicao_elementar": {
+      "C": 64.59,
+      "N": 21.52,
+      "O": 6.15,
+      "H": 7.74
+    },
+    "contagem_atomos": {
+      "C": 14,
+      "H": 20,
+      "N": 4,
+      "O": 1
+    },
+    "score_final": 0.7112,
+    "propriedades": {
+      "MW": 260.1637,
+      "LogP": 1.081,
+      "HBD": 1,
+      "HBA": 4,
+      "TPSA": 58.12,
+      "RotBonds": 5,
+      "nRings": 3,
+      "nAromRings": 1,
+      "FractionCSP3": 0.643,
+      "nAtoms": 19,
+      "nBasicN": 2,
+      "pKa_est": 8.5
+    },
+    "cns_mpo": 6.0,
+    "bbb": {
+      "score": 5,
+      "probabilidade": 1.0,
+      "categoria": "ALTA"
+    },
+    "sa_score": 4.3,
+    "energia_strain_kcal": null,
+    "energia_per_atom": null,
+    "n_sistemas": 5,
+    "sistemas": [
+      "colinergico",
+      "dopaminergico",
+      "glutamatergico",
+      "pde",
+      "serotoninergico"
+    ],
+    "target_detalhes": {
+      "alpha7_nAChR": {
+        "sim": 0.1507,
+        "peso": 0.12,
+        "contrib": 0.0181,
+        "ref": "varenicline"
+      },
+      "M1_PAM": {
+        "sim": 0.0667,
+        "peso": 0.06,
+        "contrib": 0.004,
+        "ref": "BQCA"
+      },
+      "AChE_inibidor": {
+        "sim": 0.092,
+        "peso": 0.05,
+        "contrib": 0.0046,
+        "ref": "donepezila"
+      },
+      "NMDA_glycine": {
+        "sim": 0.0667,
+        "peso": 0.1,
+        "contrib": 0.0067,
+        "ref": "d_cicloserina"
+      },
+      "mGluR5_PAM": {
+        "sim": 0.1944,
+        "peso": 0.06,
+        "contrib": 0.0117,
+        "ref": "CDPPB"
+      },
+      "GlyT1_inib": {
+        "sim": 0.069,
+        "peso": 0.05,
+        "contrib": 0.0035,
+        "ref": "bitopertin"
+      },
+      "D1_PAM": {
+        "sim": 0.0822,
+        "peso": 0.1,
+        "contrib": 0.0082,
+        "ref": "DETQ"
+      },
+      "D3_antag": {
+        "sim": 0.1711,
+        "peso": 0.04,
+        "contrib": 0.0068,
+        "ref": "SB277011A"
+      },
+      "5HT1A": {
+        "sim": 0.141,
+        "peso": 0.1,
+        "contrib": 0.0141,
+        "ref": "buspirona"
+      },
+      "5HT6_antag": {
+        "sim": 0.1282,
+        "peso": 0.06,
+        "contrib": 0.0077,
+        "ref": "idalopirdina"
+      },
+      "5HT4_agon": {
+        "sim": 0.1605,
+        "peso": 0.04,
+        "contrib": 0.0064,
+        "ref": "prucalopride"
+      },
+      "alpha2A": {
+        "sim": 0.0984,
+        "peso": 0.05,
+        "contrib": 0.0049,
+        "ref": "guanfacina"
+      },
+      "H3_antag": {
+        "sim": 0.0875,
+        "peso": 0.06,
+        "contrib": 0.0052,
+        "ref": "pitolisant"
+      },
+      "sigma1": {
+        "sim": 0.1282,
+        "peso": 0.05,
+        "contrib": 0.0064,
+        "ref": "cutamesina"
+      },
+      "PDE4_inib": {
+        "sim": 0.1628,
+        "peso": 0.04,
+        "contrib": 0.0065,
+        "ref": "roflumilast"
+      },
+      "multiplo": {
+        "sim": 0.0923,
+        "peso": 0.02,
+        "contrib": 0.0018,
+        "ref": "modafinil"
+      }
+    },
+    "anti_detalhes": {
+      "haloperidol": 0.1282,
+      "diazepam": 0.0921,
+      "morfina": 0.0988,
+      "THC": 0.0824
+    },
+    "alertas": [],
+    "estrategia": "core+link+nmda"
+  }
+]
