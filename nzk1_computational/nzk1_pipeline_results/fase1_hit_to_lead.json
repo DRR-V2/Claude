@@ -1,0 +1,2565 @@
+[
+  {
+    "nome": "NZK3d_C3_pirazina",
+    "smiles": "O=C(NCCCC1CC2CCN1CC2)c1cnccn1",
+    "descricao": "V3 Champion - quinuclidina + C3 linker + pirazina amida",
+    "tipo": "candidato",
+    "validacao": {
+      "nome": "NZK3d_C3_pirazina",
+      "smiles": "O=C(NCCCC1CC2CCN1CC2)c1cnccn1",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C15H22N4O/c20-15(14-11-16-6-7-17-14)18-5-1-2-13-10-12-3-8-19(13)9-4-12/h6-7,11-13H,1-5,8-10H2,(H,18,20)",
+      "formula": "C15H22N4O",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 58.12,
+        "rotatable_bonds": 5,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 86.5,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -2.359,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.622,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=1.47 em 0-5: OK",
+          "TPSA=58.1<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=4<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.58,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 1.12,
+      "vd_interpretacao": "Distribuicao tecidual moderada",
+      "ligacao_proteinas_pct": 64.7,
+      "fracao_livre_pct": 35.3
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 4,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2C9": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Alta",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 7.8,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 100.0,
+      "via_hepatica_pct": 0.0,
+      "via_principal": "Renal",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Baixo",
+        "score": 1,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 149.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 8,
+        "max": 10,
+        "classe": "Excelente"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": true
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": true
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 7,
+        "total": 7,
+        "percentual": 100.0,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 87,
+      "max_total": 100,
+      "percentual": 87.0,
+      "classificacao": "PROMOVER A LEAD",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 7,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 20,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 15,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "NZK3d_C4_pirazina",
+    "smiles": "O=C(NCCCCC1CC2CCN1CC2)c1cnccn1",
+    "descricao": "Analogo C4 - linker mais longo",
+    "tipo": "candidato",
+    "validacao": {
+      "nome": "NZK3d_C4_pirazina",
+      "smiles": "O=C(NCCCCC1CC2CCN1CC2)c1cnccn1",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C16H24N4O/c21-16(15-12-17-7-8-18-15)19-6-2-1-3-14-11-13-4-9-20(14)10-5-13/h7-8,12-14H,1-6,9-11H2,(H,19,21)",
+      "formula": "C16H24N4O",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 58.12,
+        "rotatable_bonds": 6,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 86.5,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -2.615,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.53,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=1.86 em 0-5: OK",
+          "TPSA=58.1<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=4<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.58,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 1.67,
+      "vd_interpretacao": "Distribuicao tecidual moderada",
+      "ligacao_proteinas_pct": 68.6,
+      "fracao_livre_pct": 31.4
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 4,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2C9": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Alta",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 9.6,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 100.0,
+      "via_hepatica_pct": 0.0,
+      "via_principal": "Renal",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Baixo",
+        "score": 1,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 158.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 8,
+        "max": 10,
+        "classe": "Excelente"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": true
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": true
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 7,
+        "total": 7,
+        "percentual": 100.0,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 87,
+      "max_total": 100,
+      "percentual": 87.0,
+      "classificacao": "PROMOVER A LEAD",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 7,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 20,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 15,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "NZK3d_C2_pirazina",
+    "smiles": "O=C(NCCC1CC2CCN1CC2)c1cnccn1",
+    "descricao": "Analogo C2 - linker mais curto",
+    "tipo": "candidato",
+    "validacao": {
+      "nome": "NZK3d_C2_pirazina",
+      "smiles": "O=C(NCCC1CC2CCN1CC2)c1cnccn1",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C14H20N4O/c19-14(13-10-15-5-6-16-13)17-4-1-12-9-11-2-7-18(12)8-3-11/h5-6,10-12H,1-4,7-9H2,(H,17,19)",
+      "formula": "C14H20N4O",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 58.12,
+        "rotatable_bonds": 4,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 86.5,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -2.104,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.714,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=1.08 em 0-5: OK",
+          "TPSA=58.1<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=4<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.58,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 0.76,
+      "vd_interpretacao": "Distribuicao tecidual moderada",
+      "ligacao_proteinas_pct": 60.8,
+      "fracao_livre_pct": 39.2
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 4,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2C9": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Alta",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 6.4,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 100.0,
+      "via_hepatica_pct": 0.0,
+      "via_principal": "Renal",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Baixo",
+        "score": 1,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 141.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 8,
+        "max": 10,
+        "classe": "Excelente"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": false
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": true
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 6,
+        "total": 7,
+        "percentual": 85.7,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 84,
+      "max_total": 100,
+      "percentual": 84.0,
+      "classificacao": "PROMOVER A LEAD",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 7,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 20,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 12,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "NZK3d_azanorbornano_C3",
+    "smiles": "O=C(NCCCN1CC2CCC1C2)c1cnccn1",
+    "descricao": "Azanorbornano variante",
+    "tipo": "candidato",
+    "validacao": {
+      "nome": "NZK3d_azanorbornano_C3",
+      "smiles": "O=C(NCCCN1CC2CCC1C2)c1cnccn1",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C14H20N4O/c19-14(13-9-15-5-6-16-13)17-4-1-7-18-10-11-2-3-12(18)8-11/h5-6,9,11-12H,1-4,7-8,10H2,(H,17,19)",
+      "formula": "C14H20N4O",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 58.12,
+        "rotatable_bonds": 5,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 86.5,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -2.038,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.714,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=1.08 em 0-5: OK",
+          "TPSA=58.1<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=4<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.58,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 0.76,
+      "vd_interpretacao": "Distribuicao tecidual moderada",
+      "ligacao_proteinas_pct": 60.8,
+      "fracao_livre_pct": 39.2
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 4,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2C9": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Alta",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 6.4,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 100.0,
+      "via_hepatica_pct": 0.0,
+      "via_principal": "Renal",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Baixo",
+        "score": 1,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 141.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 8,
+        "max": 10,
+        "classe": "Excelente"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": false
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": true
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 6,
+        "total": 7,
+        "percentual": 85.7,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 84,
+      "max_total": 100,
+      "percentual": 84.0,
+      "classificacao": "PROMOVER A LEAD",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 7,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 20,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 12,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "Guanfacina",
+    "smiles": "NC(=O)Cc1c(Cl)cccc1Cl",
+    "descricao": "Referencia FDA: Guanfacina",
+    "tipo": "referencia_FDA",
+    "validacao": {
+      "nome": "Guanfacina",
+      "smiles": "NC(=O)Cc1c(Cl)cccc1Cl",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C8H7Cl2NO/c9-6-2-1-3-7(10)5(6)4-8(11)12/h1-3H,4H2,(H2,11,12)",
+      "formula": "C8H7Cl2NO",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 43.09,
+        "rotatable_bonds": 2,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 92.4,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -2.61,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.363,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=2.02 em 0-5: OK",
+          "TPSA=43.1<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=1<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.58,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 2.61,
+      "vd_interpretacao": "Alta distribuicao tecidual",
+      "ligacao_proteinas_pct": 70.2,
+      "fracao_livre_pct": 29.8
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2C9": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 15.9,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 66.7,
+      "via_hepatica_pct": 33.3,
+      "via_principal": "Renal",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Baixo",
+        "score": 1,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 197.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 8,
+        "max": 10,
+        "classe": "Excelente"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": false
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": false
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 5,
+        "total": 7,
+        "percentual": 71.4,
+        "classe": "Bom"
+      }
+    },
+    "score_h2l": {
+      "score_total": 82,
+      "max_total": 100,
+      "percentual": 82.0,
+      "classificacao": "PROMOVER A LEAD",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 7,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 20,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 10,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "NZK2c_pyrimidilpiperazina",
+    "smiles": "O=C(CC1CNCCN1c1ncccn1)c1ccc2ccoc2c1",
+    "descricao": "V2 Champion - para comparacao",
+    "tipo": "candidato",
+    "validacao": {
+      "nome": "NZK2c_pyrimidilpiperazina",
+      "smiles": "O=C(CC1CNCCN1c1ncccn1)c1ccc2ccoc2c1",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C18H18N4O2/c23-16(14-3-2-13-4-9-24-17(13)10-14)11-15-12-19-7-8-22(15)18-20-5-1-6-21-18/h1-6,9-10,15,19H,7-8,11-12H2",
+      "formula": "C18H18N4O2",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 71.26,
+        "rotatable_bonds": 4,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 81.3,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -3.468,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.545,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=2.27 em 0-5: OK",
+          "TPSA=71.3<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=6<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.58,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 1.98,
+      "vd_interpretacao": "Distribuicao tecidual moderada",
+      "ligacao_proteinas_pct": 72.7,
+      "fracao_livre_pct": 27.3
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": true,
+          "score": 4,
+          "relevancia": "Principal"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP2C9": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Alta",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 10.9,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 50.0,
+      "via_hepatica_pct": 50.0,
+      "via_principal": "Hepatica/Biliar",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Medio",
+        "score": 3,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 141.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 7,
+        "max": 10,
+        "classe": "Bom"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": true
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": true
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 7,
+        "total": 7,
+        "percentual": 100.0,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 81,
+      "max_total": 100,
+      "percentual": 81.0,
+      "classificacao": "PROMOVER A LEAD",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 4,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 17,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 15,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "Modafinil",
+    "smiles": "NC(=O)CS(=O)C(c1ccccc1)c1ccccc1",
+    "descricao": "Referencia FDA: Modafinil",
+    "tipo": "referencia_FDA",
+    "validacao": {
+      "nome": "Modafinil",
+      "smiles": "NC(=O)CS(=O)C(c1ccccc1)c1ccccc1",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C15H15NO2S/c16-14(17)11-19(18)15(12-7-3-1-4-8-12)13-9-5-2-6-10-13/h1-10,15H,11H2,(H2,16,17)",
+      "formula": "C15H15NO2S",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 60.16,
+        "rotatable_bonds": 5,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 85.7,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -2.937,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.512,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=2.01 em 0-5: OK",
+          "TPSA=60.2<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=2<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.58,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 1.87,
+      "vd_interpretacao": "Distribuicao tecidual moderada",
+      "ligacao_proteinas_pct": 70.1,
+      "fracao_livre_pct": 29.9
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP2C9": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 11.4,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 75.0,
+      "via_hepatica_pct": 25.0,
+      "via_principal": "Renal",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Medio",
+        "score": 2,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 168.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 7,
+        "max": 10,
+        "classe": "Bom"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": false
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": true
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 6,
+        "total": 7,
+        "percentual": 85.7,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 81,
+      "max_total": 100,
+      "percentual": 81.0,
+      "classificacao": "PROMOVER A LEAD",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 7,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 17,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 12,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "Memantina",
+    "smiles": "C1C2CC3CC1CC(N)(C3)C2",
+    "descricao": "Referencia FDA: Memantina",
+    "tipo": "referencia_FDA",
+    "validacao": {
+      "nome": "Memantina",
+      "smiles": "C1C2CC3CC1CC(N)(C3)C2",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C10H17N/c11-10-4-7-1-8(5-10)3-9(2-7)6-10/h7-9H,1-6,11H2",
+      "formula": "C10H17N",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 26.02,
+        "rotatable_bonds": 0,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 99.1,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -1.983,
+      "solubilidade_classe": "Alta",
+      "caco2_permeabilidade": {
+        "log_perm": -5.241,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=1.91 em 0-5: OK",
+          "TPSA=26.0<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=1<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.23,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 3.23,
+      "vd_interpretacao": "Alta distribuicao tecidual",
+      "ligacao_proteinas_pct": 69.1,
+      "fracao_livre_pct": 30.9
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": false,
+          "score": 0,
+          "relevancia": "Improvavel"
+        },
+        "CYP2D6": {
+          "substrato_provavel": false,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP2C19": {
+          "substrato_provavel": false,
+          "score": 0,
+          "relevancia": "Improvavel"
+        },
+        "CYP1A2": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        },
+        "CYP2C9": {
+          "substrato_provavel": false,
+          "score": 0,
+          "relevancia": "Improvavel"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 18.7,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 100.0,
+      "via_hepatica_pct": 0.0,
+      "via_principal": "Renal",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Baixo",
+        "score": 0,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 219.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 8,
+        "max": 10,
+        "classe": "Excelente"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": false
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": false
+      },
+      "Lead_likeness": {
+        "aprovado": false
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 4,
+        "total": 7,
+        "percentual": 57.1,
+        "classe": "Aceitavel"
+      }
+    },
+    "score_h2l": {
+      "score_total": 80,
+      "max_total": 100,
+      "percentual": 80.0,
+      "classificacao": "PROMOVER A LEAD",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 7,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 20,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 8,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "Buspirona",
+    "smiles": "O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ccccn2)CC1",
+    "descricao": "Referencia FDA: Buspirona",
+    "tipo": "referencia_FDA",
+    "validacao": {
+      "nome": "Buspirona",
+      "smiles": "O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ccccn2)CC1",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C22H32N4O2/c27-20-17-22(8-2-3-9-22)18-21(28)26(20)12-6-5-11-24-13-15-25(16-14-24)19-7-1-4-10-23-19/h1,4,7,10H,2-3,5-6,8-9,11-18H2",
+      "formula": "C22H32N4O2",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 56.75,
+        "rotatable_bonds": 6,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 87.0,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -3.682,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.321,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=2.69 em 0-5: OK",
+          "TPSA=56.8<90: OK",
+          "HBD=0<=3: OK",
+          "HBA=5<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.48,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 3.98,
+      "vd_interpretacao": "Alta distribuicao tecidual",
+      "ligacao_proteinas_pct": 76.9,
+      "fracao_livre_pct": 23.1
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Principal"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 4,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": false,
+          "score": 0,
+          "relevancia": "Improvavel"
+        },
+        "CYP2C9": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Alta",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "Hidrolise de amida",
+          "enzima": "Amidases hepaticas",
+          "probabilidade": "Baixa-Media",
+          "descricao": "Quebra da ligacao amida C-N"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 11.0,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 33.3,
+      "via_hepatica_pct": 66.7,
+      "via_principal": "Hepatica/Biliar",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Medio",
+        "score": 3,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 111.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 7,
+        "max": 10,
+        "classe": "Bom"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": true
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": false
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 6,
+        "total": 7,
+        "percentual": 85.7,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 78,
+      "max_total": 100,
+      "percentual": 78.0,
+      "classificacao": "OTIMIZAR",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 4,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 17,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 12,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "NZK1_quinuclidina_benzisoxazol",
+    "smiles": "O=C(CC1CN2CCC1CC2)c1ccc2onc(N3CCNCC3)c2c1",
+    "descricao": "V1 Champion - para comparacao",
+    "tipo": "candidato",
+    "validacao": {
+      "nome": "NZK1_quinuclidina_benzisoxazol",
+      "smiles": "O=C(CC1CN2CCC1CC2)c1ccc2onc(N3CCNCC3)c2c1",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C20H26N4O2/c25-18(12-16-13-23-7-3-14(16)4-8-23)15-1-2-19-17(11-15)20(22-26-19)24-9-5-21-6-10-24/h1-2,11,14,16,21H,3-10,12-13H2",
+      "formula": "C20H26N4O2",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 61.61,
+        "rotatable_bonds": 4,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 85.1,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -3.384,
+      "solubilidade_classe": "Moderada",
+      "caco2_permeabilidade": {
+        "log_perm": -5.491,
+        "classe": "Baixa"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=2.15 em 0-5: OK",
+          "TPSA=61.6<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=6<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 5.58,
+        "max": 6.0,
+        "classe": "Excelente"
+      },
+      "volume_distribuicao_L_kg": 2.1,
+      "vd_interpretacao": "Alta distribuicao tecidual",
+      "ligacao_proteinas_pct": 71.5,
+      "fracao_livre_pct": 28.5
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": true,
+          "score": 4,
+          "relevancia": "Principal"
+        },
+        "CYP2D6": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Principal"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP2C9": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Alta",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 8.7,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 50.0,
+      "via_hepatica_pct": 50.0,
+      "via_principal": "Hepatica/Biliar",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Alto",
+        "score": 4,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Baixo",
+        "score": 0,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 135.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 5,
+        "max": 10,
+        "classe": "Aceitavel"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": true
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": false
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 6,
+        "total": 7,
+        "percentual": 85.7,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 73,
+      "max_total": 100,
+      "percentual": 73.0,
+      "classificacao": "OTIMIZAR",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 20,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 4,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 12,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 12,
+          "max": 15
+        }
+      }
+    }
+  },
+  {
+    "nome": "Atomoxetina",
+    "smiles": "CC(c1ccccc1)OC(c1ccccc1)CCNC",
+    "descricao": "Referencia FDA: Atomoxetina",
+    "tipo": "referencia_FDA",
+    "validacao": {
+      "nome": "Atomoxetina",
+      "smiles": "CC(c1ccccc1)OC(c1ccccc1)CCNC",
+      "valido": true,
+      "testes": {
+        "parse_smiles": true,
+        "sanitizacao": true,
+        "valencias_corretas": true,
+        "sem_radicais": true,
+        "atomos_permitidos": true,
+        "mw_razoavel": true,
+        "molecula_unica": true,
+        "smiles_reprodutivel": true,
+        "inchi_geravel": true
+      },
+      "inchi": "InChI=1S/C18H23NO/c1-15(16-9-5-3-6-10-16)20-18(13-14-19-2)17-11-7-4-8-12-17/h3-12,15,18-19H,13-14H2,1-2H3",
+      "formula": "C18H23NO",
+      "testes_aprovados": 9,
+      "testes_total": 9
+    },
+    "absorcao": {
+      "lipinski": {
+        "aprovado": true,
+        "violacoes": 0,
+        "detalhes": [
+          "Todas regras OK"
+        ]
+      },
+      "veber": {
+        "aprovado": true,
+        "TPSA": 21.26,
+        "rotatable_bonds": 7,
+        "detalhes": "TPSA<=140 e RotBonds<=10"
+      },
+      "HIA_percentual": 100,
+      "HIA_classe": "Alta (>80%)",
+      "solubilidade_logSw": -4.083,
+      "solubilidade_classe": "Baixa",
+      "caco2_permeabilidade": {
+        "log_perm": -4.681,
+        "classe": "Alta"
+      },
+      "biodisponibilidade_oral_pct": 100,
+      "pgp_substrato": {
+        "provavel": false,
+        "score": 0,
+        "risco": "Baixo"
+      }
+    },
+    "distribuicao": {
+      "BBB": {
+        "score": 5,
+        "max": 5,
+        "probabilidade": 1.0,
+        "categoria": "ALTA",
+        "detalhes": [
+          "MW<450: OK",
+          "LogP=4.12 em 0-5: OK",
+          "TPSA=21.3<90: OK",
+          "HBD=1<=3: OK",
+          "HBA=2<=7: OK"
+        ]
+      },
+      "CNS_MPO": {
+        "score": 3.75,
+        "max": 6.0,
+        "classe": "Marginal"
+      },
+      "volume_distribuicao_L_kg": 32.83,
+      "vd_interpretacao": "Acumulo tecidual extenso",
+      "ligacao_proteinas_pct": 91.2,
+      "fracao_livre_pct": 8.8
+    },
+    "metabolismo": {
+      "CYP450": {
+        "CYP3A4": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP2D6": {
+          "substrato_provavel": false,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP2C19": {
+          "substrato_provavel": true,
+          "score": 2,
+          "relevancia": "Secundario"
+        },
+        "CYP1A2": {
+          "substrato_provavel": true,
+          "score": 3,
+          "relevancia": "Secundario"
+        },
+        "CYP2C9": {
+          "substrato_provavel": false,
+          "score": 1,
+          "relevancia": "Improvavel"
+        }
+      },
+      "metabolitos_previstos": [
+        {
+          "reacao": "N-desalquilacao",
+          "enzima": "CYP3A4/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Clivagem de grupos alquila ligados ao nitrogenio"
+        },
+        {
+          "reacao": "Hidroxilacao aromatica",
+          "enzima": "CYP1A2/CYP2D6",
+          "probabilidade": "Media",
+          "descricao": "Adicao de OH ao anel aromatico"
+        },
+        {
+          "reacao": "N-oxidacao",
+          "enzima": "FMO3/CYP3A4",
+          "probabilidade": "Media",
+          "descricao": "Oxidacao do nitrogenio terciario"
+        }
+      ],
+      "clearance_intrinseco_uL_min": 49.7,
+      "meia_vida_h": 72,
+      "classe_meia_vida": "Muito longa (>24h)"
+    },
+    "excrecao": {
+      "via_renal_pct": 50.0,
+      "via_hepatica_pct": 50.0,
+      "via_principal": "Hepatica/Biliar",
+      "tempo_eliminacao_completa_h": 360
+    },
+    "toxicidade": {
+      "hERG_cardiotoxicidade": {
+        "risco": "Medio",
+        "score": 3,
+        "max": 5,
+        "detalhes": "Bloqueio canal hERG - prolongamento QT"
+      },
+      "hepatotoxicidade_DILI": {
+        "risco": "Medio",
+        "score": 1,
+        "detalhes": "Drug-Induced Liver Injury"
+      },
+      "mutagenicidade_Ames": {
+        "risco": "Baixo",
+        "alertas": [
+          "Nenhum alerta estrutural"
+        ],
+        "detalhes": "Predicao teste de Ames (mutagenicidade bacteriana)"
+      },
+      "PAINS": {
+        "limpo": true,
+        "detalhes": "Sem alertas PAINS"
+      },
+      "toxicidade_aguda": {
+        "LD50_oral_estimado_mg_kg": 105.0,
+        "classe_GHS": "Categoria 3 (Toxico)",
+        "detalhes": "Predicao QSAR simplificada - necessita validacao experimental"
+      },
+      "score_seguranca_global": {
+        "score": 6,
+        "max": 10,
+        "classe": "Bom"
+      }
+    },
+    "drug_likeness": {
+      "Lipinski_Ro5": {
+        "aprovado": true,
+        "violacoes": 0
+      },
+      "Ghose": {
+        "aprovado": true
+      },
+      "Veber": {
+        "aprovado": true
+      },
+      "Egan_BBB": {
+        "aprovado": true
+      },
+      "Muegge": {
+        "aprovado": true
+      },
+      "Lead_likeness": {
+        "aprovado": false
+      },
+      "CNS_drug_likeness": {
+        "aprovado": true
+      },
+      "score_global": {
+        "aprovadas": 6,
+        "total": 7,
+        "percentual": 85.7,
+        "classe": "Excelente"
+      }
+    },
+    "score_h2l": {
+      "score_total": 69,
+      "max_total": 100,
+      "percentual": 69.0,
+      "classificacao": "OTIMIZAR",
+      "detalhes": {
+        "validacao_estrutural": {
+          "pontos": 10,
+          "max": 10
+        },
+        "absorcao": {
+          "pontos": 15,
+          "max": 15
+        },
+        "distribuicao_CNS": {
+          "pontos": 10,
+          "max": 20
+        },
+        "metabolismo": {
+          "pontos": 7,
+          "max": 15
+        },
+        "seguranca": {
+          "pontos": 15,
+          "max": 25
+        },
+        "drug_likeness": {
+          "pontos": 12,
+          "max": 15
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,300 @@
+{
+  "molecula": {
+    "nome": "NZK3d_C3_pirazina",
+    "smiles": "O=C(NCCCC1CC2CCN1CC2)c1cnccn1"
+  },
+  "parametros_pk": {
+    "absorcao": {
+      "Fa_fracao_absorvida": 0.865,
+      "ka_h_inv": 1.352,
+      "Tlag_h": 0.25
+    },
+    "distribuicao": {
+      "Vd_L_kg": 1.124,
+      "Vd_L": 78.65,
+      "PPB_pct": 64.7,
+      "fu_fracao_livre": 0.3529
+    },
+    "metabolismo": {
+      "CLint_uL_min": 7.81,
+      "CLh_mL_min": 2.75,
+      "CLr_mL_min": 21.17,
+      "CLtotal_mL_min": 23.93,
+      "CLtotal_L_h": 1.436,
+      "Fh_fracao_hepatica": 0.9982,
+      "F_oral": 0.863
+    },
+    "eliminacao": {
+      "ke_h_inv": 0.01825,
+      "t_half_h": 37.97,
+      "t_eliminacao_completa_h": 189.8
+    },
+    "derivados": {
+      "peso_molecular": 274.18,
+      "LogP": 1.471,
+      "TPSA": 58.12,
+      "BW_kg": 70
+    }
+  },
+  "dose_unica": {
+    "5mg": {
+      "dose_mg": 5,
+      "Cmax_ng_mL": 0.052,
+      "Tmax_h": 3.0,
+      "AUC_0_inf_ng_h_mL": 1.73
+    },
+    "10mg": {
+      "dose_mg": 10,
+      "Cmax_ng_mL": 0.103,
+      "Tmax_h": 2.8,
+      "AUC_0_inf_ng_h_mL": 3.46
+    },
+    "20mg": {
+      "dose_mg": 20,
+      "Cmax_ng_mL": 0.207,
+      "Tmax_h": 3.2,
+      "AUC_0_inf_ng_h_mL": 6.92
+    },
+    "40mg": {
+      "dose_mg": 40,
+      "Cmax_ng_mL": 0.414,
+      "Tmax_h": 3.3,
+      "AUC_0_inf_ng_h_mL": 13.83
+    }
+  },
+  "doses_multiplas": {
+    "10mg 1x/dia 14 dias": {
+      "dose_mg": 10,
+      "intervalo_h": 24,
+      "n_doses": 14,
+      "Css_max_ng_mL": 0.295,
+      "Css_min_ng_mL": 0.202,
+      "Css_avg_ng_mL": 0.249,
+      "fator_acumulacao": 2.819,
+      "flutuacao_pct": 37.3
+    },
+    "5mg 2x/dia 14 dias": {
+      "dose_mg": 5,
+      "intervalo_h": 12,
+      "n_doses": 28,
+      "Css_max_ng_mL": 0.268,
+      "Css_min_ng_mL": 0.227,
+      "Css_avg_ng_mL": 0.25,
+      "fator_acumulacao": 5.084,
+      "flutuacao_pct": 16.4
+    },
+    "20mg 1x/dia 14 dias": {
+      "dose_mg": 20,
+      "intervalo_h": 24,
+      "n_doses": 14,
+      "Css_max_ng_mL": 0.59,
+      "Css_min_ng_mL": 0.403,
+      "Css_avg_ng_mL": 0.499,
+      "fator_acumulacao": 2.819,
+      "flutuacao_pct": 37.5
+    }
+  },
+  "farmacodinamica": {
+    "alpha7_nAChR_ativacao": {
+      "parametros": {
+        "EC50_ng_mL": 15.0,
+        "Emax_pct": 85,
+        "Hill": 1.5,
+        "E0": 0,
+        "descricao": "Ativacao receptores nicotinicos alpha7 - memoria"
+      },
+      "efeito_maximo_pct": 0.01,
+      "tempo_efeito_max_h": 1.0,
+      "duracao_acima_50pct_h": 29.5
+    },
+    "D1_PAM_ativacao": {
+      "parametros": {
+        "EC50_ng_mL": 25.0,
+        "Emax_pct": 70,
+        "Hill": 1.2,
+        "E0": 0,
+        "descricao": "Modulacao positiva D1 - funcao executiva"
+      },
+      "efeito_maximo_pct": 0.03,
+      "tempo_efeito_max_h": 2.0,
+      "duracao_acima_50pct_h": 32.0
+    },
+    "mGluR5_PAM_ativacao": {
+      "parametros": {
+        "EC50_ng_mL": 20.0,
+        "Emax_pct": 75,
+        "Hill": 1.3,
+        "E0": 0,
+        "descricao": "Modulacao mGluR5 - plasticidade sinaptica"
+      },
+      "efeito_maximo_pct": 0.02,
+      "tempo_efeito_max_h": 1.5,
+      "duracao_acima_50pct_h": 46.5
+    },
+    "5HT1A_ativacao": {
+      "parametros": {
+        "EC50_ng_mL": 30.0,
+        "Emax_pct": 65,
+        "Hill": 1.0,
+        "E0": 0,
+        "descricao": "Agonismo parcial 5-HT1A - anxiolitico"
+      },
+      "efeito_maximo_pct": 0.08,
+      "tempo_efeito_max_h": 2.5,
+      "duracao_acima_50pct_h": 46.5
+    },
+    "PDE4_inibicao": {
+      "parametros": {
+        "EC50_ng_mL": 35.0,
+        "Emax_pct": 60,
+        "Hill": 1.0,
+        "E0": 0,
+        "descricao": "Inibicao PDE4 - via AMPc/CREB/BDNF"
+      },
+      "efeito_maximo_pct": 0.06,
+      "tempo_efeito_max_h": 2.0,
+      "duracao_acima_50pct_h": 46.5
+    }
+  },
+  "indice_terapeutico": {
+    "LD50_estimado_mg_kg": 148.9,
+    "dose_terapeutica_mg": 10,
+    "dose_terapeutica_mg_kg": 0.143,
+    "indice_terapeutico": 1042.3,
+    "margem_seguranca": 34.74,
+    "classificacao_TI": "Amplo (>10)",
+    "NOAEL_estimado_mg_kg": 1.49,
+    "HED_mg_kg": 0.2495,
+    "MRSD_mg": 1.75,
+    "nota": "FDA Guidance: ICH M3(R2) para First-in-Human dose"
+  },
+  "linearidade_pk": "LINEAR",
+  "recomendacao_dose": {
+    "dose_inicial_FIH": "1.75 mg",
+    "dose_terapeutica_estimada": "10 mg 1x/dia",
+    "regime_recomendado": "Titulacao: 5mg/dia semana 1 -> 10mg/dia semana 2+",
+    "dose_maxima_sugerida": "20 mg/dia"
+  },
+  "perfil_pk_10mg_resumo": [
+    {
+      "tempo_h": 0,
+      "Cp_ng_mL": 0.0,
+      "Cp_livre_ng_mL": 0.0
+    },
+    {
+      "tempo_h": 2.0,
+      "Cp_ng_mL": 0.097,
+      "Cp_livre_ng_mL": 0.034
+    },
+    {
+      "tempo_h": 4.0,
+      "Cp_ng_mL": 0.103,
+      "Cp_livre_ng_mL": 0.036
+    },
+    {
+      "tempo_h": 6.0,
+      "Cp_ng_mL": 0.1,
+      "Cp_livre_ng_mL": 0.035
+    },
+    {
+      "tempo_h": 8.0,
+      "Cp_ng_mL": 0.097,
+      "Cp_livre_ng_mL": 0.034
+    },
+    {
+      "tempo_h": 10.0,
+      "Cp_ng_mL": 0.093,
+      "Cp_livre_ng_mL": 0.033
+    },
+    {
+      "tempo_h": 12.0,
+      "Cp_ng_mL": 0.09,
+      "Cp_livre_ng_mL": 0.032
+    },
+    {
+      "tempo_h": 14.0,
+      "Cp_ng_mL": 0.087,
+      "Cp_livre_ng_mL": 0.031
+    },
+    {
+      "tempo_h": 16.0,
+      "Cp_ng_mL": 0.083,
+      "Cp_livre_ng_mL": 0.029
+    },
+    {
+      "tempo_h": 18.0,
+      "Cp_ng_mL": 0.08,
+      "Cp_livre_ng_mL": 0.028
+    },
+    {
+      "tempo_h": 20.0,
+      "Cp_ng_mL": 0.078,
+      "Cp_livre_ng_mL": 0.027
+    },
+    {
+      "tempo_h": 22.0,
+      "Cp_ng_mL": 0.075,
+      "Cp_livre_ng_mL": 0.026
+    },
+    {
+      "tempo_h": 24.0,
+      "Cp_ng_mL": 0.072,
+      "Cp_livre_ng_mL": 0.025
+    },
+    {
+      "tempo_h": 26.0,
+      "Cp_ng_mL": 0.07,
+      "Cp_livre_ng_mL": 0.025
+    },
+    {
+      "tempo_h": 28.0,
+      "Cp_ng_mL": 0.067,
+      "Cp_livre_ng_mL": 0.024
+    },
+    {
+      "tempo_h": 30.0,
+      "Cp_ng_mL": 0.065,
+      "Cp_livre_ng_mL": 0.023
+    },
+    {
+      "tempo_h": 32.0,
+      "Cp_ng_mL": 0.062,
+      "Cp_livre_ng_mL": 0.022
+    },
+    {
+      "tempo_h": 34.0,
+      "Cp_ng_mL": 0.06,
+      "Cp_livre_ng_mL": 0.021
+    },
+    {
+      "tempo_h": 36.0,
+      "Cp_ng_mL": 0.058,
+      "Cp_livre_ng_mL": 0.02
+    },
+    {
+      "tempo_h": 38.0,
+      "Cp_ng_mL": 0.056,
+      "Cp_livre_ng_mL": 0.02
+    },
+    {
+      "tempo_h": 40.0,
+      "Cp_ng_mL": 0.054,
+      "Cp_livre_ng_mL": 0.019
+    },
+    {
+      "tempo_h": 42.0,
+      "Cp_ng_mL": 0.052,
+      "Cp_livre_ng_mL": 0.018
+    },
+    {
+      "tempo_h": 44.0,
+      "Cp_ng_mL": 0.05,
+      "Cp_livre_ng_mL": 0.018
+    },
+    {
+      "tempo_h": 46.0,
+      "Cp_ng_mL": 0.048,
+      "Cp_livre_ng_mL": 0.017
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "fase_I": {
+    "SAD": {
+      "coortes": [
+        {
+          "dose_mg": 1,
+          "n_ativo": 6,
+          "n_placebo": 2,
+          "pk": {
+            "Cmax_media_ng_mL": 5.4,
+            "Cmax_sd": 1.7,
+            "Tmax_media_h": 2.0,
+            "AUC_media_ng_h_mL": 43.5
+          },
+          "eventos_adversos": {
+            "n_com_EA": 1,
+            "pct_com_EA": 16.7,
+            "contagem": {
+              "Cefaleia": 1,
+              "Nausea": 1,
+              "Tontura": 1,
+              "Fadiga": 1
+            },
+            "EA_graves": 0,
+            "descontinuacao": 0
+          },
+          "tolerado": true
+        },
+        {
+          "dose_mg": 2.5,
+          "n_ativo": 6,
+          "n_placebo": 2,
+          "pk": {
+            "Cmax_media_ng_mL": 12.3,
+            "Cmax_sd": 3.9,
+            "Tmax_media_h": 2.2,
+            "AUC_media_ng_h_mL": 102.5
+          },
+          "eventos_adversos": {
+            "n_com_EA": 1,
+            "pct_com_EA": 16.7,
+            "contagem": {
+              "Cefaleia": 1,
+              "Fadiga": 1
+            },
+            "EA_graves": 0,
+            "descontinuacao": 0
+          },
+          "tolerado": true
+        },
+        {
+          "dose_mg": 5,
+          "n_ativo": 6,
+          "n_placebo": 2,
+          "pk": {
+            "Cmax_media_ng_mL": 20.4,
+            "Cmax_sd": 5.8,
+            "Tmax_media_h": 2.1,
+            "AUC_media_ng_h_mL": 219.4
+          },
+          "eventos_adversos": {
+            "n_com_EA": 1,
+            "pct_com_EA": 16.7,
+            "contagem": {
+              "Nausea": 1
+            },
+            "EA_graves": 0,
+            "descontinuacao": 0
+          },
+          "tolerado": true
+        },
+        {
+          "dose_mg": 10,
+          "n_ativo": 6,
+          "n_placebo": 2,
+          "pk": {
+            "Cmax_media_ng_mL": 48.1,
+            "Cmax_sd": 9.7,
+            "Tmax_media_h": 1.9,
+            "AUC_media_ng_h_mL": 387.0
+          },
+          "eventos_adversos": {
+            "n_com_EA": 1,
+            "pct_com_EA": 16.7,
+            "contagem": {
+              "Cefaleia": 1,
+              "Nausea": 1
+            },
+            "EA_graves": 0,
+            "descontinuacao": 0
+          },
+          "tolerado": true
+        },
+        {
+          "dose_mg": 20,
+          "n_ativo": 6,
+          "n_placebo": 2,
+          "pk": {
+            "Cmax_media_ng_mL": 124.1,
+            "Cmax_sd": 17.5,
+            "Tmax_media_h": 2.2,
+            "AUC_media_ng_h_mL": 757.1
+          },
+          "eventos_adversos": {
+            "n_com_EA": 3,
+            "pct_com_EA": 50.0,
+            "contagem": {
+              "Nausea": 3,
+              "Tontura": 1
+            },
+            "EA_graves": 0,
+            "descontinuacao": 0
+          },
+          "tolerado": false
+        },
+        {
+          "dose_mg": 40,
+          "n_ativo": 6,
+          "n_placebo": 2,
+          "pk": {
+            "Cmax_media_ng_mL": 218.3,
+            "Cmax_sd": 78.7,
+            "Tmax_media_h": 2.3,
+            "AUC_media_ng_h_mL": 1564.7
+          },
+          "eventos_adversos": {
+            "n_com_EA": 4,
+            "pct_com_EA": 66.7,
+            "contagem": {
+              "Cefaleia": 4,
+              "Nausea": 4,
+              "Tontura": 2
+            },
+            "EA_graves": 0,
+            "descontinuacao": 1
+          },
+          "tolerado": false
+        }
+      ],
+      "MTD_mg": 10,
+      "n_total": 48
+    },
+    "MAD": {
+      "grupos": [
+        {
+          "dose_mg": 5.0,
+          "n": 8,
+          "duracao_dias": 14,
+          "pk_ss": {
+            "Css_max_ng_mL": 35.9,
+            "Css_min_ng_mL": 10.4,
+            "tempo_ss_dias": 3
+          },
+          "eventos_adversos": {
+            "n_com_EA": 1,
+            "pct_com_EA": 12.5,
+            "EA_graves": 0
+          },
+          "labs": {
+            "ALT_elevacao_pct": 8.0,
+            "QTc_prolongamento_ms": 6.4,
+            "hematologia": "Normal",
+            "funcao_renal": "Normal"
+          }
+        },
+        {
+          "dose_mg": 10,
+          "n": 8,
+          "duracao_dias": 14,
+          "pk_ss": {
+            "Css_max_ng_mL": 69.2,
+            "Css_min_ng_mL": 16.9,
+            "tempo_ss_dias": 3
+          },
+          "eventos_adversos": {
+            "n_com_EA": 3,
+            "pct_com_EA": 37.5,
+            "EA_graves": 0
+          },
+          "labs": {
+            "ALT_elevacao_pct": -3.1,
+            "QTc_prolongamento_ms": 6.0,
+            "hematologia": "Normal",
+            "funcao_renal": "Normal"
+          }
+        },
+        {
+          "dose_mg": 20,
+          "n": 8,
+          "duracao_dias": 14,
+          "pk_ss": {
+            "Css_max_ng_mL": 170.2,
+            "Css_min_ng_mL": 62.7,
+            "tempo_ss_dias": 3
+          },
+          "eventos_adversos": {
+            "n_com_EA": 5,
+            "pct_com_EA": 62.5,
+            "EA_graves": 0
+          },
+          "labs": {
+            "ALT_elevacao_pct": -2.0,
+            "QTc_prolongamento_ms": 1.9,
+            "hematologia": "Normal",
+            "funcao_renal": "Normal"
+          }
+        }
+      ],
+      "n_total": 24,
+      "duracao_dias": 14
+    }
+  },
+  "fase_II": {
+    "desenho": {
+      "tipo": "Randomizado, duplo-cego, placebo-controlado, dose-resposta",
+      "n_total": 160,
+      "duracao_semanas": 12,
+      "endpoint_primario": "Mudanca ADAS-Cog score (baseline a semana 12)",
+      "endpoint_secundario": [
+        "MMSE",
+        "Trail Making Test B",
+        "Digit Span",
+        "CGI-S"
+      ]
+    },
+    "resultados": [
+      {
+        "grupo": "Placebo",
+        "dose_mg": 0,
+        "n_randomizado": 40,
+        "n_completou": 37,
+        "dropout_pct": 7.5,
+        "endpoint_primario": {
+          "media_mudanca": -2.71,
+          "sd": 4.11,
+          "respondedores_n": 19,
+          "respondedores_pct": 47.5
+        }
+      },
+      {
+        "grupo": "NZK-1 5mg",
+        "dose_mg": 5,
+        "n_randomizado": 40,
+        "n_completou": 36,
+        "dropout_pct": 10.0,
+        "endpoint_primario": {
+          "media_mudanca": -5.21,
+          "sd": 5.17,
+          "respondedores_n": 25,
+          "respondedores_pct": 62.5
+        }
+      },
+      {
+        "grupo": "NZK-1 10mg",
+        "dose_mg": 10,
+        "n_randomizado": 40,
+        "n_completou": 35,
+        "dropout_pct": 12.5,
+        "endpoint_primario": {
+          "media_mudanca": -6.55,
+          "sd": 5.97,
+          "respondedores_n": 27,
+          "respondedores_pct": 67.5
+        }
+      },
+      {
+        "grupo": "NZK-1 20mg",
+        "dose_mg": 20,
+        "n_randomizado": 40,
+        "n_completou": 36,
+        "dropout_pct": 10.0,
+        "endpoint_primario": {
+          "media_mudanca": -8.59,
+          "sd": 4.7,
+          "respondedores_n": 35,
+          "respondedores_pct": 87.5
+        }
+      }
+    ],
+    "analise": {
+      "comparacoes_vs_placebo": [
+        {
+          "grupo": "NZK-1 5mg",
+          "diferenca_vs_placebo": -2.5,
+          "t_test": {
+            "t": -2.3971,
+            "df": 78,
+            "p_estimado": 0.016526
+          },
+          "cohens_d": -0.536,
+          "significativo_p005": true,
+          "clinicamente_relevante": true
+        },
+        {
+          "grupo": "NZK-1 10mg",
+          "diferenca_vs_placebo": -3.84,
+          "t_test": {
+            "t": -3.3542,
+            "df": 78,
+            "p_estimado": 0.000796
+          },
+          "cohens_d": -0.75,
+          "significativo_p005": true,
+          "clinicamente_relevante": true
+        },
+        {
+          "grupo": "NZK-1 20mg",
+          "diferenca_vs_placebo": -5.88,
+          "t_test": {
+            "t": -5.9627,
+            "df": 78,
+            "p_estimado": 0.0
+          },
+          "cohens_d": -1.3333,
+          "significativo_p005": true,
+          "clinicamente_relevante": true
+        }
+      ],
+      "dose_otima_fase3": "NZK-1 10mg"
+    }
+  },
+  "fase_III": {
+    "desenho": {
+      "tipo": "Randomizado, duplo-cego, placebo-controlado, paralelo",
+      "n_total": 400,
+      "duracao_semanas": 24,
+      "dose": "NZK-1 10mg 1x/dia vs placebo",
+      "endpoint_primario": "Mudanca ADAS-Cog (baseline a semana 24)",
+      "populacao": "Adultos 18-65 anos com queixas cognitivas subjetivas"
+    },
+    "resultados": {
+      "Placebo": {
+        "n_randomizado": 200,
+        "n_completou": 170,
+        "dropout_pct": 15,
+        "timeline": [
+          {
+            "semana": 4,
+            "media": -0.73,
+            "sd": 2.0
+          },
+          {
+            "semana": 8,
+            "media": -1.57,
+            "sd": 3.45
+          },
+          {
+            "semana": 12,
+            "media": -2.22,
+            "sd": 4.94
+          },
+          {
+            "semana": 16,
+            "media": -2.23,
+            "sd": 5.05
+          },
+          {
+            "semana": 20,
+            "media": -2.18,
+            "sd": 5.06
+          },
+          {
+            "semana": 24,
+            "media": -2.35,
+            "sd": 5.04
+          }
+        ],
+        "media_final": -2.26,
+        "sd_final": 4.9
+      },
+      "NZK-1 10mg": {
+        "n_randomizado": 200,
+        "n_completou": 164,
+        "dropout_pct": 18,
+        "timeline": [
+          {
+            "semana": 4,
+            "media": -2.34,
+            "sd": 1.83
+          },
+          {
+            "semana": 8,
+            "media": -4.77,
+            "sd": 3.56
+          },
+          {
+            "semana": 12,
+            "media": -7.16,
+            "sd": 5.08
+          },
+          {
+            "semana": 16,
+            "media": -6.9,
+            "sd": 5.11
+          },
+          {
+            "semana": 20,
+            "media": -7.05,
+            "sd": 5.19
+          },
+          {
+            "semana": 24,
+            "media": -6.93,
+            "sd": 5.2
+          }
+        ],
+        "media_final": -7.04,
+        "sd_final": 5.01
+      }
+    },
+    "analise": {
+      "endpoint_primario": {
+        "diferenca_vs_placebo": -4.78,
+        "IC95_estimado": [
+          -5.47,
+          -4.09
+        ],
+        "t_test": {
+          "t": -9.6366,
+          "df": 398,
+          "p_estimado": 0.0
+        },
+        "cohens_d": -0.9637,
+        "significativo": true
+      },
+      "respondedores": {
+        "NZK1_pct": 78.5,
+        "placebo_pct": 47.0,
+        "NNT": 3.2
+      },
+      "seguranca": {
+        "EA_totais_NZK1": 45,
+        "EA_totais_placebo": 32,
+        "EA_graves_NZK1": 2,
+        "EA_graves_placebo": 1.5,
+        "descontinuacao_EA_NZK1": 5,
+        "descontinuacao_EA_placebo": 3,
+        "EA_mais_comuns": [
+          {
+            "nome": "Cefaleia",
+            "NZK1_pct": 12,
+            "placebo_pct": 8
+          },
+          {
+            "nome": "Nausea",
+            "NZK1_pct": 8,
+            "placebo_pct": 4
+          },
+          {
+            "nome": "Insonia",
+            "NZK1_pct": 6,
+            "placebo_pct": 3
+          },
+          {
+            "nome": "Tontura",
+            "NZK1_pct": 5,
+            "placebo_pct": 3
+          },
+          {
+            "nome": "Boca seca",
+            "NZK1_pct": 4,
+            "placebo_pct": 2
+          }
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "fases": [
+      {
+        "fase": "Descoberta e otimizacao",
+        "duracao_anos": "2-3",
+        "custo_USD_milhoes": "5-15",
+        "atividades": [
+          "Screening virtual (CONCLUIDO)",
+          "Hit identification (CONCLUIDO)",
+          "Hit-to-Lead (CONCLUIDO)",
+          "Lead optimization (CONCLUIDO)",
+          "PCC selection (CONCLUIDO)"
+        ],
+        "status": "CONCLUIDO (in silico)"
+      },
+      {
+        "fase": "Pre-clinico (IND-enabling)",
+        "duracao_anos": "1-2",
+        "custo_USD_milhoes": "10-30",
+        "atividades": [
+          "Sintese em escala (mg -> g)",
+          "Estudos de toxicologia aguda (roedor + nao-roedor)",
+          "Toxicologia de dose repetida (28 dias)",
+          "Genotoxicidade (Ames, micronucleo)",
+          "Seguranca cardiovascular (hERG, telemetria)",
+          "Farmacocinetica in vivo (rato, cao)",
+          "Formulacao e estabilidade",
+          "Producao GMP lote piloto"
+        ],
+        "status": "SIMULADO (in silico)"
+      },
+      {
+        "fase": "Fase I (FIH)",
+        "duracao_anos": "0.5-1",
+        "custo_USD_milhoes": "2-5",
+        "atividades": [
+          "SAD (Single Ascending Dose) - 6 coortes",
+          "MAD (Multiple Ascending Dose) - 14 dias",
+          "Food effect study",
+          "QTc study (thorough)",
+          "Determinacao de MTD e dose para Fase II"
+        ],
+        "status": "SIMULADO"
+      },
+      {
+        "fase": "Fase II (PoC)",
+        "duracao_anos": "1.5-2",
+        "custo_USD_milhoes": "20-50",
+        "atividades": [
+          "Dose-resposta (4 bracos, N=160)",
+          "Biomarcadores de engajamento do alvo",
+          "Selecao de dose para Fase III",
+          "Endpoints cognitivos validados"
+        ],
+        "status": "SIMULADO"
+      },
+      {
+        "fase": "Fase III (Pivotal)",
+        "duracao_anos": "2-3",
+        "custo_USD_milhoes": "100-300",
+        "atividades": [
+          "2 estudos pivotais (N=400 cada)",
+          "Estudo de extensao aberta (seguranca longo prazo)",
+          "Populacoes especiais (idosos, insuficiencia hepatica)",
+          "Submission package (NDA/MAA)"
+        ],
+        "status": "SIMULADO"
+      },
+      {
+        "fase": "Registro (NDA/MAA)",
+        "duracao_anos": "1-2",
+        "custo_USD_milhoes": "5-10",
+        "atividades": [
+          "Submissao NDA ao FDA",
+          "Submissao MAA a EMA",
+          "Advisory Committee meeting",
+          "Aprovacao e lancamento"
+        ],
+        "status": "NAO INICIADO"
+      }
+    ],
+    "totais": {
+      "duracao_total_anos": "8-13",
+      "custo_total_USD_milhoes": "142-410",
+      "probabilidade_sucesso_global": "~8-12%",
+      "probabilidade_por_fase": {
+        "Pre-clinico -> Fase I": "~60%",
+        "Fase I -> Fase II": "~65%",
+        "Fase II -> Fase III": "~30%",
+        "Fase III -> Aprovacao": "~60%",
+        "Cumulativa": "~7%"
+      },
+      "nota": "Baseado em dados historicos DiMasi et al. (2016) e Wong et al. (2019)"
+    }
+  }
+}
