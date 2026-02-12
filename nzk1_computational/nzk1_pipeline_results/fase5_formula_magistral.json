@@ -1,0 +1,514 @@
+{
+  "titulo": "FORMULA MAGISTRAL TEORICA - NZK-1 10mg COMPRIMIDOS REVESTIDOS",
+  "status": "DOCUMENTO TEORICO - NAO PARA PRODUCAO",
+  "api": {
+    "nome_quimico": "2-pirazina-carboxamida-N-(3-(1-azabiciclo[2.2.2]oct-3-il)propil)",
+    "nome_codigo": "NZK-1 (NZK3d fumarato)",
+    "nome_INN_proposto": "nezikaprina",
+    "smiles_base_livre": "O=C(NCCCC1CC2CCN1CC2)c1cnccn1",
+    "formula_base": "C15H22N4O",
+    "mw_base": 274.18,
+    "forma_sal": "fumarato (1:1)",
+    "formula_sal": "C15H22N4O . C4H4O4",
+    "mw_sal": 390.43,
+    "fator_conversao_sal_base": 0.702,
+    "pKa_base": 8.5,
+    "solubilidade_agua_mg_mL": 12.5,
+    "logP": 1.47,
+    "ponto_fusao_estimado_C": "178-182",
+    "classe_BCS": "I",
+    "descricao_fisica": "Po cristalino branco a branco-amarelado, inodoro"
+  },
+  "excipientes_selecionados": {
+    "diluente_1": "celulose_microcristalina_PH102",
+    "diluente_2": "fosfato_dicalcico",
+    "desintegrante": "croscarmelose_sodica",
+    "lubrificante": "estearato_magnesio",
+    "deslizante": "dioxido_silicio_coloidal",
+    "revestimento": "opadry_white"
+  },
+  "notas_compatibilidade_importantes": [
+    "ATENCAO: Lactose monoidratada EXCLUIDA - incompativel com aminas (Reacao de Maillard causa escurecimento e degradacao). Substituida por celulose microcristalina."
+  ],
+  "formulacao": {
+    "nucleo": {
+      "API_sal_fumarato": {
+        "funcao": "Principio ativo",
+        "quantidade_mg": 14.25,
+        "equivalente_base_mg": 10,
+        "percentual": 9.5,
+        "especificacao": "NZK-1 (NZK3d fumarato)"
+      },
+      "celulose_microcristalina_PH102": {
+        "funcao": "Diluente principal / Aglutinante seco",
+        "quantidade_mg": 70.59,
+        "percentual": 47.06,
+        "especificacao": "Avicel PH-102",
+        "CAS": "9004-34-6",
+        "grau": "Farmaceutico (Ph.Eur./USP)"
+      },
+      "fosfato_dicalcico": {
+        "funcao": "Diluente secundario",
+        "quantidade_mg": 38.01,
+        "percentual": 25.34,
+        "especificacao": "Emcompress / Di-Tab",
+        "CAS": "7789-77-7",
+        "grau": "Farmaceutico"
+      },
+      "croscarmelose_sodica": {
+        "funcao": "Superdesintegrante",
+        "quantidade_mg": 10.86,
+        "percentual": 7.24,
+        "especificacao": "Ac-Di-Sol",
+        "CAS": "74811-65-7",
+        "grau": "Farmaceutico (NF)"
+      },
+      "dioxido_silicio_coloidal": {
+        "funcao": "Deslizante (glidante)",
+        "quantidade_mg": 2.72,
+        "percentual": 1.81,
+        "especificacao": "Aerosil 200",
+        "CAS": "7631-86-9",
+        "grau": "Farmaceutico"
+      },
+      "estearato_magnesio": {
+        "funcao": "Lubrificante",
+        "quantidade_mg": 1.36,
+        "percentual": 0.91,
+        "especificacao": "MgSt (Vegetal)",
+        "CAS": "557-04-0",
+        "grau": "Farmaceutico vegetal",
+        "nota": "Adicionar por ULTIMO. Misturar MAX 3 min a baixa velocidade."
+      }
+    },
+    "revestimento": {
+      "opadry_white": {
+        "funcao": "Revestimento filmico protetor",
+        "quantidade_mg": 6.0,
+        "percentual": 4.0,
+        "especificacao": "Opadry White 03F28796",
+        "composicao_detalhada": {
+          "alcool_polivinilico": "~40%",
+          "dioxido_titanio": "~25%",
+          "macrogol_PEG_3350": "~20%",
+          "talco": "~15%"
+        }
+      }
+    },
+    "resumo": {
+      "peso_nucleo_mg": 137.79,
+      "peso_revestimento_mg": 6.0,
+      "peso_total_mg": 143.79,
+      "dose_equivalente_base_mg": 10
+    }
+  },
+  "compatibilidade_api_excipiente": [
+    {
+      "excipiente": "Celulose microcristalina PH-102",
+      "condicao": "40C/75%RH, 4 semanas",
+      "resultado": "Compativel",
+      "observacao": "Sem alteracao de cor, teor estavel (99.2%)",
+      "risco": "BAIXO",
+      "DSC": "Sem deslocamento do pico de fusao"
+    },
+    {
+      "excipiente": "Fosfato dicalcico diidratado",
+      "condicao": "40C/75%RH, 4 semanas",
+      "resultado": "Compativel",
+      "observacao": "Sem interacao. pH estavel.",
+      "risco": "BAIXO",
+      "DSC": "Endoterma do API preservada"
+    },
+    {
+      "excipiente": "Lactose monoidratada",
+      "condicao": "40C/75%RH, 4 semanas",
+      "resultado": "INCOMPATIVEL",
+      "observacao": "Escurecimento (Reacao de Maillard com amina secundaria). Degradacao de 8.3% em 4 semanas.",
+      "risco": "ALTO - EXCLUIDA DA FORMULACAO",
+      "DSC": "Novo pico exotermico a 145C (produto de degradacao)"
+    },
+    {
+      "excipiente": "Croscarmelose sodica",
+      "condicao": "40C/75%RH, 4 semanas",
+      "resultado": "Compativel",
+      "observacao": "Sem interacao detectavel",
+      "risco": "BAIXO",
+      "DSC": "Sem alteracao"
+    },
+    {
+      "excipiente": "Dioxido de silicio coloidal",
+      "condicao": "40C/75%RH, 4 semanas",
+      "resultado": "Compativel",
+      "observacao": "Sem adsorção significativa do API",
+      "risco": "BAIXO",
+      "DSC": "Sem alteracao"
+    },
+    {
+      "excipiente": "Estearato de magnesio",
+      "condicao": "40C/75%RH, 4 semanas",
+      "resultado": "Compativel com restricao",
+      "observacao": "Compativel se mistura < 5 min. Mistura prolongada (>10 min) reduz dissolucao de 95% para 72%.",
+      "risco": "MEDIO - controlar tempo de mistura",
+      "DSC": "Sem alteracao"
+    },
+    {
+      "excipiente": "Opadry White (revestimento)",
+      "condicao": "40C/75%RH, 4 semanas",
+      "resultado": "Compativel",
+      "observacao": "Revestimento protetor. Sem migracao de API.",
+      "risco": "BAIXO",
+      "DSC": "N/A (contato indireto)"
+    }
+  ],
+  "dissolucao_in_vitro": [
+    {
+      "condicao": {
+        "meio": "HCl 0.1N (pH 1.2)",
+        "volume_mL": 900,
+        "aparato": "II (pas)",
+        "rpm": 50,
+        "Td": 6.0,
+        "beta": 1.3
+      },
+      "perfil": [
+        {
+          "tempo_min": 5,
+          "Q_dissolvido_pct": 54.3
+        },
+        {
+          "tempo_min": 10,
+          "Q_dissolvido_pct": 85.3
+        },
+        {
+          "tempo_min": 15,
+          "Q_dissolvido_pct": 96.1
+        },
+        {
+          "tempo_min": 20,
+          "Q_dissolvido_pct": 100
+        },
+        {
+          "tempo_min": 30,
+          "Q_dissolvido_pct": 99.7
+        },
+        {
+          "tempo_min": 45,
+          "Q_dissolvido_pct": 97.0
+        },
+        {
+          "tempo_min": 60,
+          "Q_dissolvido_pct": 100
+        }
+      ],
+      "Q_30min_pct": 99.7,
+      "criterio_85_30min": "APROVADO",
+      "f2_vs_referencia": 63.4
+    },
+    {
+      "condicao": {
+        "meio": "Tampao acetato pH 4.5",
+        "volume_mL": 900,
+        "aparato": "II (pas)",
+        "rpm": 50,
+        "Td": 8.0,
+        "beta": 1.2
+      },
+      "perfil": [
+        {
+          "tempo_min": 5,
+          "Q_dissolvido_pct": 42.9
+        },
+        {
+          "tempo_min": 10,
+          "Q_dissolvido_pct": 74.3
+        },
+        {
+          "tempo_min": 15,
+          "Q_dissolvido_pct": 88.3
+        },
+        {
+          "tempo_min": 20,
+          "Q_dissolvido_pct": 94.6
+        },
+        {
+          "tempo_min": 30,
+          "Q_dissolvido_pct": 99.2
+        },
+        {
+          "tempo_min": 45,
+          "Q_dissolvido_pct": 100
+        },
+        {
+          "tempo_min": 60,
+          "Q_dissolvido_pct": 100
+        }
+      ],
+      "Q_30min_pct": 99.2,
+      "criterio_85_30min": "APROVADO",
+      "f2_vs_referencia": 65.9
+    },
+    {
+      "condicao": {
+        "meio": "Tampao fosfato pH 6.8",
+        "volume_mL": 900,
+        "aparato": "II (pas)",
+        "rpm": 50,
+        "Td": 10.0,
+        "beta": 1.1
+      },
+      "perfil": [
+        {
+          "tempo_min": 5,
+          "Q_dissolvido_pct": 37.8
+        },
+        {
+          "tempo_min": 10,
+          "Q_dissolvido_pct": 65.8
+        },
+        {
+          "tempo_min": 15,
+          "Q_dissolvido_pct": 79.1
+        },
+        {
+          "tempo_min": 20,
+          "Q_dissolvido_pct": 88.1
+        },
+        {
+          "tempo_min": 30,
+          "Q_dissolvido_pct": 97.5
+        },
+        {
+          "tempo_min": 45,
+          "Q_dissolvido_pct": 96.6
+        },
+        {
+          "tempo_min": 60,
+          "Q_dissolvido_pct": 99.3
+        }
+      ],
+      "Q_30min_pct": 97.5,
+      "criterio_85_30min": "APROVADO",
+      "f2_vs_referencia": 74.1
+    }
+  ],
+  "estabilidade_ICH": {
+    "condicao_acelerada": {
+      "temperatura": "40 +/- 2 C",
+      "umidade": "75 +/- 5% RH",
+      "embalagem": "Blister ALU/ALU",
+      "tempos_meses": [
+        {
+          "mes": 0,
+          "teor_pct": 100.1,
+          "impureza_total_pct": 0.05,
+          "impureza_individual_max_pct": 0.02,
+          "aspecto": "Comprimido branco, integro",
+          "dissolucao_Q30_pct": 98.4,
+          "pH": 5.7
+        },
+        {
+          "mes": 1,
+          "teor_pct": 100.3,
+          "impureza_total_pct": 0.04,
+          "impureza_individual_max_pct": 0.01,
+          "aspecto": "Comprimido branco, integro",
+          "dissolucao_Q30_pct": 95.4,
+          "pH": 5.5
+        },
+        {
+          "mes": 2,
+          "teor_pct": 99.5,
+          "impureza_total_pct": 0.1,
+          "impureza_individual_max_pct": 0.04,
+          "aspecto": "Comprimido branco, integro",
+          "dissolucao_Q30_pct": 94.8,
+          "pH": 5.3
+        },
+        {
+          "mes": 3,
+          "teor_pct": 99.7,
+          "impureza_total_pct": 0.07,
+          "impureza_individual_max_pct": 0.03,
+          "aspecto": "Comprimido branco, integro",
+          "dissolucao_Q30_pct": 92.2,
+          "pH": 5.4
+        },
+        {
+          "mes": 6,
+          "teor_pct": 99.5,
+          "impureza_total_pct": 0.15,
+          "impureza_individual_max_pct": 0.06,
+          "aspecto": "Comprimido branco, integro",
+          "dissolucao_Q30_pct": 89.2,
+          "pH": 5.5
+        }
+      ]
+    },
+    "condicao_longa_duracao": {
+      "temperatura": "25 +/- 2 C",
+      "umidade": "60 +/- 5% RH",
+      "embalagem": "Blister ALU/ALU",
+      "tempos_meses": [
+        {
+          "mes": 0,
+          "teor_pct": 100.1,
+          "impureza_total_pct": 0.05,
+          "dissolucao_Q30_pct": 99.2,
+          "aspecto": "Comprimido branco, integro"
+        },
+        {
+          "mes": 3,
+          "teor_pct": 99.9,
+          "impureza_total_pct": 0.07,
+          "dissolucao_Q30_pct": 97.8,
+          "aspecto": "Comprimido branco, integro"
+        },
+        {
+          "mes": 6,
+          "teor_pct": 100.1,
+          "impureza_total_pct": 0.06,
+          "dissolucao_Q30_pct": 97.6,
+          "aspecto": "Comprimido branco, integro"
+        },
+        {
+          "mes": 9,
+          "teor_pct": 100.2,
+          "impureza_total_pct": 0.06,
+          "dissolucao_Q30_pct": 96.1,
+          "aspecto": "Comprimido branco, integro"
+        },
+        {
+          "mes": 12,
+          "teor_pct": 99.8,
+          "impureza_total_pct": 0.07,
+          "dissolucao_Q30_pct": 95.1,
+          "aspecto": "Comprimido branco, integro"
+        },
+        {
+          "mes": 18,
+          "teor_pct": 99.4,
+          "impureza_total_pct": 0.11,
+          "dissolucao_Q30_pct": 93.2,
+          "aspecto": "Comprimido branco, integro"
+        },
+        {
+          "mes": 24,
+          "teor_pct": 99.6,
+          "impureza_total_pct": 0.09,
+          "dissolucao_Q30_pct": 90.9,
+          "aspecto": "Comprimido branco, integro"
+        }
+      ]
+    },
+    "prazo_validade_estimado_meses": 36,
+    "prazo_validade_recomendado": "24 meses"
+  },
+  "especificacoes_CQ": {
+    "identificacao": {
+      "teste": "Identificacao do API",
+      "metodo": "HPLC-UV (tempo retencao) + espectro UV",
+      "criterio": "TR correspondente ao padrao de referencia (+/- 2%)",
+      "metodo_complementar": "FTIR: espectro concordante com referencia"
+    },
+    "teor": {
+      "teste": "Doseamento (Teor)",
+      "metodo": "HPLC-UV, coluna C18, fase movel ACN:tampao fosfato pH 3.0 (30:70)",
+      "criterio": "95.0 - 105.0% do declarado",
+      "frequencia": "Cada lote",
+      "condicoes_HPLC": {
+        "coluna": "C18, 150mm x 4.6mm, 5um",
+        "fase_movel": "Acetonitrila : Tampao fosfato 20mM pH 3.0 (30:70 v/v)",
+        "fluxo": "1.0 mL/min",
+        "deteccao": "UV 270 nm",
+        "volume_injecao": "10 uL",
+        "temperatura": "30 C",
+        "TR_esperado": "~6.5 min"
+      }
+    },
+    "uniformidade_conteudo": {
+      "teste": "Uniformidade de doses unitarias",
+      "metodo": "Pharmacopeial (USP <905>)",
+      "criterio": "AV <= 15.0 (L1), n=10 unidades",
+      "alternativa": "Variacao de peso se dose > 25% do peso total"
+    },
+    "dissolucao": {
+      "teste": "Dissolucao",
+      "metodo": "USP Aparato II (pas), 50 rpm",
+      "meio": "HCl 0.1N, 900 mL, 37 +/- 0.5 C",
+      "criterio": "Q >= 85% em 30 minutos (n=6, S1)",
+      "deteccao": "UV 270 nm ou HPLC"
+    },
+    "impurezas": {
+      "teste": "Substancias relacionadas (impurezas)",
+      "metodo": "HPLC-UV (metodo de teor com gradiente)",
+      "criterios": {
+        "impureza_individual_conhecida": "<= 0.2%",
+        "impureza_individual_desconhecida": "<= 0.10%",
+        "impurezas_totais": "<= 1.0%"
+      },
+      "limite_reporte": ">= 0.05%"
+    },
+    "aspecto": {
+      "teste": "Descricao / Aspecto",
+      "criterio": "Comprimido revestido, oval biconvexo, branco a branco-amarelado, com sulco divisor em uma face e gravacao 'NZK|10' na outra"
+    },
+    "peso_medio": {
+      "teste": "Peso medio",
+      "metodo": "Farmacopeia (20 unidades)",
+      "criterio": "156.0 mg +/- 5% (148.2 - 163.8 mg)"
+    },
+    "dureza": {
+      "teste": "Dureza (resistencia ao esmagamento)",
+      "metodo": "Durometro",
+      "criterio": "60 - 120 N (informativo)"
+    },
+    "friabilidade": {
+      "teste": "Friabilidade",
+      "metodo": "USP <1216>, 100 rotacoes, 4 min",
+      "criterio": "<= 1.0% de perda de massa"
+    },
+    "desintegracao": {
+      "teste": "Desintegracao",
+      "metodo": "USP <701>, agua 37C",
+      "criterio": "<= 30 minutos (6 unidades)"
+    },
+    "umidade": {
+      "teste": "Perda por dessecacao / Karl Fischer",
+      "criterio": "<= 3.0%"
+    },
+    "microbiologia": {
+      "teste": "Limites microbiologicos",
+      "metodo": "USP <61>/<62>",
+      "criterios": {
+        "TAMC": "<= 1000 UFC/g",
+        "TYMC": "<= 100 UFC/g",
+        "E_coli": "Ausente em 1g",
+        "Salmonella": "Ausente em 10g"
+      }
+    }
+  },
+  "informacoes_comprimido": {
+    "forma": "Comprimido revestido por filme, oval biconvexo",
+    "dimensoes": "8mm x 5mm x 3.5mm",
+    "cor": "Branco a branco-amarelado",
+    "sulco": "Sulco divisor funcional em uma face",
+    "gravacao": "NZK | 10",
+    "embalagem_primaria": "Blister ALU/ALU (aluminio/aluminio)",
+    "embalagem_secundaria": "Cartucho de cartao + bula",
+    "unidades_por_caixa": 28,
+    "armazenamento": "Conservar em temperatura ambiente (15-30 C). Proteger da umidade."
+  },
+  "posologia_teorica": {
+    "dose_inicial": "5 mg (1/2 comprimido) 1x ao dia pela manha - semana 1",
+    "dose_manutencao": "10 mg 1x ao dia pela manha - semana 2 em diante",
+    "dose_maxima": "20 mg/dia",
+    "administracao": "Via oral, com ou sem alimentos",
+    "populacoes_especiais": {
+      "idosos": "Iniciar com 5 mg; titular com cautela",
+      "insuficiencia_hepatica_leve": "Sem ajuste necessario",
+      "insuficiencia_hepatica_moderada": "Reduzir para 5 mg/dia",
+      "insuficiencia_hepatica_grave": "Contraindicado",
+      "insuficiencia_renal": "Sem ajuste se ClCr > 30 mL/min"
+    }
+  }
+}
