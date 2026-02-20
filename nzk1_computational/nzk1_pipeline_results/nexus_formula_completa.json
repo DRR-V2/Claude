@@ -1,0 +1,1173 @@
+{
+  "projeto": "NEXUS",
+  "versao": "1.0",
+  "data": "2026-02-20 18:19:46",
+  "descricao": "Formula teorica de otimizacao cerebral total",
+  "alvos_neuronais": {
+    "NMDA_NR2B": {
+      "tipo": "Receptor ionotropico glutamatergico",
+      "localizacao": [
+        "Hipocampo CA1/CA3",
+        "Cortex pre-frontal",
+        "Amigdala"
+      ],
+      "funcao": "Plasticidade sinaptica - LTP (potenciacao de longa duracao)",
+      "efeito_cognitivo": "Aprendizado rapido, formacao de memorias de longa duracao",
+      "modulacao_desejada": "Modulador alosterico positivo (PAM)",
+      "papel_genio": "Velocidade de aquisicao de conhecimento - 'absorver como esponja'",
+      "cascata": "NMDA -> Ca2+ influx -> CaMKII -> CREB -> BDNF -> sinaptogenese",
+      "Ki_ideal_nM": 50,
+      "seletividade": "NR2B >> NR2A (evitar excitotoxicidade)"
+    },
+    "alpha7_nAChR": {
+      "tipo": "Receptor nicotinico colinergico",
+      "localizacao": [
+        "Cortex pre-frontal",
+        "Hipocampo",
+        "Cortex parietal"
+      ],
+      "funcao": "Atencao sustentada, filtro sensorial, working memory",
+      "efeito_cognitivo": "Foco laser, processamento rapido de informacao",
+      "modulacao_desejada": "Agonista parcial / PAM tipo II",
+      "papel_genio": "Concentracao absoluta - estado de 'flow' sob demanda",
+      "cascata": "a7nAChR -> Ca2+ -> PI3K/Akt -> mTOR -> sintese proteica local",
+      "Ki_ideal_nM": 30,
+      "seletividade": "a7 >> a4b2 (evitar dessensibilizacao)"
+    },
+    "D1_PFC": {
+      "tipo": "Receptor dopaminergico D1 (Gs-acoplado)",
+      "localizacao": [
+        "Cortex pre-frontal dorsolateral",
+        "Cortex cingulado anterior"
+      ],
+      "funcao": "Working memory, planejamento, tomada de decisao",
+      "efeito_cognitivo": "Raciocinio abstrato, manipulacao mental complexa",
+      "modulacao_desejada": "Agonista parcial D1 (curva U-invertida otima)",
+      "papel_genio": "Capacidade de 'segurar' multiplas ideias simultaneamente",
+      "cascata": "D1 -> Gs -> cAMP -> PKA -> DARPP-32 -> potenciacao sinaptica PFC",
+      "Ki_ideal_nM": 80,
+      "seletividade": "D1 >> D2 (evitar efeitos motores/psicoticos)"
+    },
+    "5HT2A_cortical": {
+      "tipo": "Receptor serotoninergico 5-HT2A (Gq-acoplado)",
+      "localizacao": [
+        "Cortex pre-frontal camada V",
+        "Cortex temporal",
+        "Claustro"
+      ],
+      "funcao": "Flexibilidade cognitiva, pensamento divergente, conectividade",
+      "efeito_cognitivo": "Criatividade, insight, conexoes nao-obvias entre conceitos",
+      "modulacao_desejada": "Modulador alosterico positivo (NAO agonista direto)",
+      "papel_genio": "Momentos 'eureka' - conectar ideias distantes",
+      "cascata": "5HT2A -> Gq -> PLC -> IP3/DAG -> PKC -> plasticidade dendritica",
+      "Ki_ideal_nM": 120,
+      "seletividade": "PAM sutil, nao agonista (evitar alucinacoes)"
+    },
+    "mGluR5": {
+      "tipo": "Receptor metabotropico glutamatergico grupo I",
+      "localizacao": [
+        "Hipocampo",
+        "Striatum",
+        "Cortex",
+        "Cerebelo"
+      ],
+      "funcao": "Modulacao da plasticidade sinaptica, LTD e LTP",
+      "efeito_cognitivo": "Refinamento de memorias, aprendizado motor fino",
+      "modulacao_desejada": "PAM (potenciador alosterico positivo)",
+      "papel_genio": "Calibracao fina do aprendizado - 'polish' das habilidades",
+      "cascata": "mGluR5 -> Gq -> PLC -> Ca2+ -> Homer/Shank -> remodelacao PSD",
+      "Ki_ideal_nM": 100,
+      "seletividade": "mGluR5 >> mGluR1"
+    },
+    "sigma1": {
+      "tipo": "Receptor sigma-1 (chaperona do RE)",
+      "localizacao": [
+        "RE neuronal",
+        "MAM (mitocondria-RE)",
+        "Oligodendrocitos"
+      ],
+      "funcao": "Neuroprotetor, regulador de Ca2+, chaperona proteica",
+      "efeito_cognitivo": "Resiliencia neuronal, protecao contra estresse oxidativo",
+      "modulacao_desejada": "Agonista",
+      "papel_genio": "Manter o cerebro funcionando no pico sem 'queimar'",
+      "cascata": "Sigma1 -> estabiliza IP3R -> Ca2+ mitocondrial -> ATP -> energia",
+      "Ki_ideal_nM": 40,
+      "seletividade": "Sigma1 >> Sigma2"
+    },
+    "H3_inverso": {
+      "tipo": "Receptor histaminergico H3 (Gi-acoplado)",
+      "localizacao": [
+        "Hipotalamo TMN",
+        "Cortex",
+        "Ganglios basais",
+        "Hipocampo"
+      ],
+      "funcao": "Autoreceptor - controla liberacao de histamina, ACh, NA, DA",
+      "efeito_cognitivo": "Vigilia, alerta, clareza mental",
+      "modulacao_desejada": "Agonista inverso / Antagonista",
+      "papel_genio": "Estado de alerta otimo sem ansiedade - 'vigilia lucida'",
+      "cascata": "Bloqueio H3 -> desinibi liberacao HA/ACh/NA/DA -> arousal multi-NT",
+      "Ki_ideal_nM": 20,
+      "seletividade": "H3 >> H1/H2/H4"
+    }
+  },
+  "alvos_gliais": {
+    "TrkB_astrocitario": {
+      "tipo_celular": "Astrocito",
+      "receptor": "TrkB (receptor de BDNF)",
+      "localizacao": [
+        "Astrocitos perisinaptiques",
+        "Glia de Bergmann (cerebelo)"
+      ],
+      "funcao": "Astrocitos liberam BDNF -> potencia LTP -> sinaptogenese",
+      "efeito_cognitivo": "Amplifica plasticidade sinaptica mediada por astrocitos",
+      "modulacao": "Potenciador da sinalizacao BDNF-TrkB astrocitaria",
+      "papel_genio": "Astrocitos como 'amplificadores' da memoria",
+      "cascata": "BDNF -> TrkB astrocito -> Ras/MAPK -> proliferacao processos -> mais sinapses cobertas",
+      "importancia": 9.5
+    },
+    "S1P1_oligodendrocito": {
+      "tipo_celular": "Oligodendrocito",
+      "receptor": "S1P1 (esfingosina-1-fosfato receptor 1)",
+      "localizacao": [
+        "Substancia branca",
+        "Corpo caloso",
+        "Fasciculos corticais"
+      ],
+      "funcao": "Promove mielinizacao adaptativa - velocidade de conducao",
+      "efeito_cognitivo": "Transmissao neural mais rapida entre regioes cerebrais",
+      "modulacao": "Agonista parcial seletivo S1P1",
+      "papel_genio": "Velocidade de processamento - 'clock speed' cerebral",
+      "cascata": "S1P1 -> Gi -> Akt -> mTOR -> MBP/PLP -> mielina compacta",
+      "importancia": 9.0
+    },
+    "P2Y1_astrocitario": {
+      "tipo_celular": "Astrocito",
+      "receptor": "P2Y1 (receptor purinergico)",
+      "localizacao": [
+        "Astrocitos em rede",
+        "Tripartite synapses"
+      ],
+      "funcao": "Ondas de Ca2+ astrocitarias -> gliotransmissao (D-serina, ATP, glutamato)",
+      "efeito_cognitivo": "Sincronizacao de redes neurais distantes via glia",
+      "modulacao": "Modulador positivo de gliotransmissao controlada",
+      "papel_genio": "Coordenacao global - 'orquestra cerebral' sincronizada",
+      "cascata": "P2Y1 -> Gq -> IP3 -> Ca2+ ondas -> D-serina liberada -> potencia NMDA",
+      "importancia": 8.5
+    },
+    "CSF1R_microglia": {
+      "tipo_celular": "Microglia",
+      "receptor": "CSF1R (Colony Stimulating Factor 1 Receptor)",
+      "localizacao": [
+        "Microglia em todo SNC",
+        "Concentrada em hipocampo e cortex"
+      ],
+      "funcao": "Poda sinaptica controlada - elimina sinapses fracas/redundantes",
+      "efeito_cognitivo": "Refinamento de circuitos - sinal/ruido otimizado",
+      "modulacao": "Modulador fino (nao inibidor total - precisa da poda!)",
+      "papel_genio": "Eliminar 'ruido neural' - pensamento cristalino",
+      "cascata": "CSF1R modulado -> microglia 'surveillant' otima -> C1q/C3 poda precisa -> circuitos limpos",
+      "importancia": 8.0
+    },
+    "Cx43_astrocitario": {
+      "tipo_celular": "Astrocito",
+      "receptor": "Conexina 43 (gap junction astrocitaria)",
+      "localizacao": [
+        "Redes astrocitarias sincitiais",
+        "Todo cortex e hipocampo"
+      ],
+      "funcao": "Rede de comunicacao glial - distribui glicose, lactato, K+",
+      "efeito_cognitivo": "Suporte metabolico otimo para neuronios ativos",
+      "modulacao": "Potenciador de acoplamento gap junction",
+      "papel_genio": "Energia ilimitada para neuronios - sem 'brain fog'",
+      "cascata": "Cx43 aberta -> lactato shuttle -> neuronios recebem energia -> atividade sustentada",
+      "importancia": 8.5
+    },
+    "GPR17_OPC": {
+      "tipo_celular": "Celula Precursora de Oligodendrocito (OPC)",
+      "receptor": "GPR17 (receptor orfao acoplado a Gi)",
+      "localizacao": [
+        "OPCs em substancia branca e cinzenta"
+      ],
+      "funcao": "Timer de diferenciacao OPC -> oligodendrocito maduro",
+      "efeito_cognitivo": "Remielinizacao adaptativa - reparo de circuitos",
+      "modulacao": "Antagonista (libera o freio na diferenciacao)",
+      "papel_genio": "Cerebro que se auto-repara e se auto-otimiza",
+      "cascata": "Bloqueio GPR17 -> OPC diferencia -> oligodendrocito maduro -> mielina nova",
+      "importancia": 7.5
+    }
+  },
+  "circuitos_genio": {
+    "DMN_criatividade": {
+      "nome": "Default Mode Network (Rede de Modo Padrao)",
+      "regioes": [
+        "mPFC",
+        "PCC/Precuneus",
+        "Lobulo parietal inferior",
+        "Cortex temporal lateral"
+      ],
+      "funcao": "Pensamento espontaneo, imaginacao, simulacao mental, 'mind wandering'",
+      "papel_genio": "CRIATIVIDADE - gerar ideias novas, fazer conexoes improvaveis",
+      "como_ativar": "Reducao controlada do controle inibitorio (5-HT2A cortical)",
+      "neurotransmissores": [
+        "Serotonina (5-HT)",
+        "Acetilcolina",
+        "Dopamina"
+      ],
+      "biomarcador": "Aumento de conectividade funcional DMN-FPN em fMRI",
+      "genios_exemplo": "Einstein (devaneio sobre raio de luz), Kekule (sonho da cobra)",
+      "peso": 9.0
+    },
+    "SN_intuicao": {
+      "nome": "Salience Network (Rede de Saliencia)",
+      "regioes": [
+        "Insula anterior",
+        "Cortex cingulado anterior dorsal (dACC)",
+        "Amigdala"
+      ],
+      "funcao": "Detectar o que e relevante, alternar entre redes, 'gut feeling'",
+      "papel_genio": "INTUICAO - saber instantaneamente o que importa sem analise consciente",
+      "como_ativar": "Potenciar sinalizacao noradrenergica e interoceptiva (insula)",
+      "neurotransmissores": [
+        "Noradrenalina",
+        "Dopamina",
+        "Histamina"
+      ],
+      "biomarcador": "Ativacao insular rapida antes de decisoes corretas em tarefas ambiguas",
+      "genios_exemplo": "Magnus Carlsen (intuicao xadrez), traders de elite",
+      "peso": 8.5
+    },
+    "FPN_raciocinio": {
+      "nome": "Frontoparietal Network (Rede Frontoparietal / Executiva Central)",
+      "regioes": [
+        "dlPFC",
+        "Cortex parietal posterior",
+        "Cortex pre-motor"
+      ],
+      "funcao": "Controle executivo, raciocinio logico, working memory, planejamento",
+      "papel_genio": "RACIOCINIO - resolver problemas complexos passo a passo",
+      "como_ativar": "Otimizar dopamina D1 no PFC (curva U-invertida no ponto otimo)",
+      "neurotransmissores": [
+        "Dopamina (D1)",
+        "Acetilcolina",
+        "Glutamato"
+      ],
+      "biomarcador": "Aumento de gamma oscillations (30-100Hz) em dlPFC durante raciocinio",
+      "genios_exemplo": "Von Neumann (calculo mental extremo), Ramanujan",
+      "peso": 9.5
+    },
+    "HPC_memoria": {
+      "nome": "Circuito Hipocampal-Cortical (Consolidacao de Memoria)",
+      "regioes": [
+        "Hipocampo CA1/CA3/DG",
+        "Cortex entorrinal",
+        "Cortex perirrinal",
+        "mPFC"
+      ],
+      "funcao": "Codificacao, consolidacao e recuperacao de memorias declarativas",
+      "papel_genio": "MEMORIA - reter tudo, acessar instantaneamente, nunca esquecer",
+      "como_ativar": "NMDA NR2B + BDNF-TrkB + sharp-wave ripples durante sono",
+      "neurotransmissores": [
+        "Glutamato (NMDA/AMPA)",
+        "Acetilcolina",
+        "BDNF"
+      ],
+      "biomarcador": "Theta-gamma coupling no hipocampo durante codificacao",
+      "genios_exemplo": "Kim Peek (memoria eidetica), Luria's 'S' (Solomon Shereshevsky)",
+      "peso": 9.0
+    },
+    "LC_NA_alerta": {
+      "nome": "Sistema Locus Coeruleus - Noradrenalina",
+      "regioes": [
+        "Locus coeruleus",
+        "Projecoes difusas corticais",
+        "Amigdala",
+        "Hipocampo"
+      ],
+      "funcao": "Alerta, vigilancia, resposta ao estresse, reset atencional",
+      "papel_genio": "INSTINTO DE SOBREVIVENCIA - reacao ultra-rapida, estado de alerta",
+      "como_ativar": "Modulacao adrenergica alpha-2A (otimizar, nao hiper-ativar)",
+      "neurotransmissores": [
+        "Noradrenalina",
+        "Adrenalina"
+      ],
+      "biomarcador": "Resposta pupilar (dilatacao proporcional a ativacao LC)",
+      "genios_exemplo": "Pilotos de combate de elite, atletas em 'clutch moments'",
+      "peso": 8.0
+    },
+    "BG_padrao": {
+      "nome": "Circuito Ganglios Basais - Reconhecimento de Padroes",
+      "regioes": [
+        "Striatum (caudado/putamen)",
+        "GPe/GPi",
+        "SNc",
+        "Nucleo subtalamico",
+        "Talamo"
+      ],
+      "funcao": "Aprendizado procedural, habitos, reconhecimento de padroes, 'chunking'",
+      "papel_genio": "RECONHECIMENTO DE PADROES - ver ordem no caos, automatizar expertise",
+      "como_ativar": "Dopamina tonica no striatum + mielinizacao cortico-estriatal",
+      "neurotransmissores": [
+        "Dopamina (D1/D2 balance)",
+        "GABA",
+        "Glutamato"
+      ],
+      "biomarcador": "Beta oscillations (13-30Hz) no striatum durante aprendizado implicito",
+      "genios_exemplo": "Kasparov (padroes de xadrez), diagnosticos medicos instantaneos",
+      "peso": 8.5
+    },
+    "CB_predicao": {
+      "nome": "Circuito Cerebelar - Motor Preditivo e Cognitivo",
+      "regioes": [
+        "Cerebelo (lobulos VI/VII/Crus I/II)",
+        "Nucleo dentado",
+        "Ponte",
+        "Cortex pre-frontal"
+      ],
+      "funcao": "Modelos internos preditivos, timing, coordenacao cognitiva",
+      "papel_genio": "PREDICAO - antecipar consequencias, 'jogar xadrez mental 10 jogadas a frente'",
+      "como_ativar": "Plasticidade celula Purkinje (LTD cerebelar via mGluR1) + mielinizacao",
+      "neurotransmissores": [
+        "Glutamato",
+        "GABA",
+        "Endocanabinoides"
+      ],
+      "biomarcador": "Ativacao Crus I/II em tarefas de predicao sequencial",
+      "genios_exemplo": "Grandes estrategistas, jogadores de Go de elite",
+      "peso": 7.5
+    }
+  },
+  "instinto_reacoes": {
+    "fight_or_flight_otimizado": {
+      "descricao": "Resposta de luta/fuga OTIMIZADA - rapida mas controlada",
+      "base_neural": "Amigdala -> Hipotalamo -> Eixo HPA + LC/NA",
+      "problema_normal": "Muito lenta (congelamento) ou excessiva (panico)",
+      "solucao_nexus": "Alpha-2A agonismo no PFC mantem controle executivo DURANTE arousal",
+      "receptor_chave": "Alpha-2A adrenergico",
+      "resultado": "Reacao instantanea COM clareza mental - 'calm under fire'"
+    },
+    "reconhecimento_padrao_inconsciente": {
+      "descricao": "Processar padroes antes da consciencia perceber",
+      "base_neural": "Via visual dorsal -> Striatum -> decisao pre-consciente",
+      "problema_normal": "Muito dependente de processamento consciente (lento)",
+      "solucao_nexus": "Mielinizacao otimizada (S1P1) + dopamina tonica estriatal",
+      "receptor_chave": "D2 estriatal (tonica) + S1P1 oligodendrocitos",
+      "resultado": "'Saber sem saber por que' - intuicao treinavel"
+    },
+    "interocepcao_amplificada": {
+      "descricao": "Perceber sinais internos do corpo (gut feeling)",
+      "base_neural": "Nervo vago -> NTS -> Insula -> decisoes intuitivas",
+      "problema_normal": "Maioria das pessoas ignora sinais somaticos",
+      "solucao_nexus": "Potenciar insula anterior via 5-HT2C + integrar com SN",
+      "receptor_chave": "5-HT2C insular",
+      "resultado": "Decisoes intuitivas baseadas em sinais corporais reais"
+    },
+    "consolidacao_sono_turbo": {
+      "descricao": "Otimizar consolidacao durante sono (sharp-wave ripples)",
+      "base_neural": "Hipocampo -> replay -> neocortex (durante N3 e REM)",
+      "problema_normal": "Replay limitado, consolidacao incompleta",
+      "solucao_nexus": "BDNF-TrkB astrocitario + NMDA NR2B -> mais ripples, mais replay",
+      "receptor_chave": "TrkB + NMDA NR2B",
+      "resultado": "Aprender dormindo - consolidacao acelerada de memorias"
+    }
+  },
+  "candidatos": [
+    {
+      "id": "NXS-3A8D9EEE",
+      "nome": "NEXUS-A (Cognitivo Central)",
+      "nucleo_scaffold": "pirido_pirimidina",
+      "substituintes": [
+        "trifluorometil",
+        "ciclopropil"
+      ],
+      "propriedades": {
+        "MW": 239,
+        "cLogP": 2.7,
+        "TPSA": 60.6,
+        "HBA": 3,
+        "HBD": 0,
+        "CNS_MPO": 5.2,
+        "BBB_penetracao_%": 34.2,
+        "Lipinski": "PASS",
+        "CNS_druglike": "SIM"
+      },
+      "perfil_farmacologico": {
+        "alvos_primarios": [
+          "NMDA_NR2B",
+          "mGluR5",
+          "TrkB_astrocitario"
+        ],
+        "alvos_secundarios": [
+          "alpha7_nAChR"
+        ],
+        "descricao": "Plasticidade sinaptica maxima + suporte astrocitario"
+      }
+    },
+    {
+      "id": "NXS-EFB2B700",
+      "nome": "NEXUS-B (Foco Executivo)",
+      "nucleo_scaffold": "triazolo_azetidina",
+      "substituintes": [
+        "fluor",
+        "metil"
+      ],
+      "propriedades": {
+        "MW": 182,
+        "cLogP": 1.1,
+        "TPSA": 105.8,
+        "HBA": 4,
+        "HBD": 1,
+        "CNS_MPO": 4.0,
+        "BBB_penetracao_%": 16.2,
+        "Lipinski": "PASS",
+        "CNS_druglike": "SIM"
+      },
+      "perfil_farmacologico": {
+        "alvos_primarios": [
+          "alpha7_nAChR",
+          "D1_PFC",
+          "H3_inverso"
+        ],
+        "alvos_secundarios": [
+          "sigma1"
+        ],
+        "descricao": "Atencao + working memory + vigilia lucida"
+      }
+    },
+    {
+      "id": "NXS-737A141E",
+      "nome": "NEXUS-C (Criatividade-Intuicao)",
+      "nucleo_scaffold": "indazol_piperazina",
+      "substituintes": [
+        "metoxil",
+        "fluor"
+      ],
+      "propriedades": {
+        "MW": 264,
+        "cLogP": 1.9,
+        "TPSA": 110.6,
+        "HBA": 3,
+        "HBD": 2,
+        "CNS_MPO": 3.9,
+        "BBB_penetracao_%": 18.5,
+        "Lipinski": "PASS",
+        "CNS_druglike": "NAO"
+      },
+      "perfil_farmacologico": {
+        "alvos_primarios": [
+          "5HT2A_cortical",
+          "D1_PFC",
+          "P2Y1_astrocitario"
+        ],
+        "alvos_secundarios": [
+          "mGluR5"
+        ],
+        "descricao": "Pensamento divergente + sincronizacao glial global"
+      }
+    },
+    {
+      "id": "NXS-8FC466A4",
+      "nome": "NEXUS-D (Velocidade Neural)",
+      "nucleo_scaffold": "benzotiofeno_amida",
+      "substituintes": [
+        "trifluorometil",
+        "difluor_metil"
+      ],
+      "propriedades": {
+        "MW": 309,
+        "cLogP": 3.7,
+        "TPSA": 65.4,
+        "HBA": 2,
+        "HBD": 1,
+        "CNS_MPO": 3.6,
+        "BBB_penetracao_%": 38.3,
+        "Lipinski": "PASS",
+        "CNS_druglike": "NAO"
+      },
+      "perfil_farmacologico": {
+        "alvos_primarios": [
+          "S1P1_oligodendrocito",
+          "sigma1",
+          "GPR17_OPC"
+        ],
+        "alvos_secundarios": [
+          "Cx43_astrocitario"
+        ],
+        "descricao": "Mielinizacao + neuroprotecao + energia glial"
+      }
+    },
+    {
+      "id": "NXS-A773A89F",
+      "nome": "NEXUS-E (Instinto Amplificado)",
+      "nucleo_scaffold": "quinuclidina_oxadiazol",
+      "substituintes": [
+        "ciclopropil",
+        "amino_metil"
+      ],
+      "propriedades": {
+        "MW": 262,
+        "cLogP": 1.7,
+        "TPSA": 60.6,
+        "HBA": 3,
+        "HBD": 0,
+        "CNS_MPO": 4.8,
+        "BBB_penetracao_%": 31.6,
+        "Lipinski": "PASS",
+        "CNS_druglike": "SIM"
+      },
+      "perfil_farmacologico": {
+        "alvos_primarios": [
+          "alpha7_nAChR",
+          "sigma1",
+          "H3_inverso"
+        ],
+        "alvos_secundarios": [
+          "CSF1R_microglia"
+        ],
+        "descricao": "Reacao instantanea + clareza mental + poda sinaptica otima"
+      }
+    }
+  ],
+  "circuitos_por_candidato": [
+    {
+      "DMN_criatividade": {
+        "ativacao_%": 32.0,
+        "nivel": "BAIXO",
+        "contribuicoes": [
+          {
+            "alvo": "NMDA_NR2B",
+            "contribuicao": 0.3
+          },
+          {
+            "alvo": "TrkB_astrocitario",
+            "contribuicao": 0.5
+          }
+        ],
+        "funcao_genio": "CRIATIVIDADE - gerar ideias novas, fazer conexoes improvaveis"
+      },
+      "SN_intuicao": {
+        "ativacao_%": 14.4,
+        "nivel": "MINIMO",
+        "contribuicoes": [
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.36
+          }
+        ],
+        "funcao_genio": "INTUICAO - saber instantaneamente o que importa sem analise consciente"
+      },
+      "FPN_raciocinio": {
+        "ativacao_%": 55.2,
+        "nivel": "MODERADO",
+        "contribuicoes": [
+          {
+            "alvo": "NMDA_NR2B",
+            "contribuicao": 0.5
+          },
+          {
+            "alvo": "TrkB_astrocitario",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.48
+          }
+        ],
+        "funcao_genio": "RACIOCINIO - resolver problemas complexos passo a passo"
+      },
+      "HPC_memoria": {
+        "ativacao_%": 100,
+        "nivel": "MAXIMO",
+        "contribuicoes": [
+          {
+            "alvo": "NMDA_NR2B",
+            "contribuicao": 0.95
+          },
+          {
+            "alvo": "mGluR5",
+            "contribuicao": 0.7
+          },
+          {
+            "alvo": "TrkB_astrocitario",
+            "contribuicao": 0.85
+          }
+        ],
+        "funcao_genio": "MEMORIA - reter tudo, acessar instantaneamente, nunca esquecer"
+      },
+      "LC_NA_alerta": {
+        "ativacao_%": 9.6,
+        "nivel": "MINIMO",
+        "contribuicoes": [
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.24
+          }
+        ],
+        "funcao_genio": "INSTINTO DE SOBREVIVENCIA - reacao ultra-rapida, estado de alerta"
+      },
+      "BG_padrao": {
+        "ativacao_%": 24.0,
+        "nivel": "BAIXO",
+        "contribuicoes": [
+          {
+            "alvo": "mGluR5",
+            "contribuicao": 0.6
+          }
+        ],
+        "funcao_genio": "RECONHECIMENTO DE PADROES - ver ordem no caos, automatizar expertise"
+      },
+      "CB_predicao": {
+        "ativacao_%": 20.0,
+        "nivel": "BAIXO",
+        "contribuicoes": [
+          {
+            "alvo": "mGluR5",
+            "contribuicao": 0.5
+          }
+        ],
+        "funcao_genio": "PREDICAO - antecipar consequencias, 'jogar xadrez mental 10 jogadas a frente'"
+      }
+    },
+    {
+      "DMN_criatividade": {
+        "ativacao_%": 16.0,
+        "nivel": "MINIMO",
+        "contribuicoes": [
+          {
+            "alvo": "D1_PFC",
+            "contribuicao": 0.4
+          }
+        ],
+        "funcao_genio": "CRIATIVIDADE - gerar ideias novas, fazer conexoes improvaveis"
+      },
+      "SN_intuicao": {
+        "ativacao_%": 48.0,
+        "nivel": "MODERADO",
+        "contribuicoes": [
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.6
+          },
+          {
+            "alvo": "H3_inverso",
+            "contribuicao": 0.6
+          }
+        ],
+        "funcao_genio": "INTUICAO - saber instantaneamente o que importa sem analise consciente"
+      },
+      "FPN_raciocinio": {
+        "ativacao_%": 93.2,
+        "nivel": "MAXIMO",
+        "contribuicoes": [
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.8
+          },
+          {
+            "alvo": "D1_PFC",
+            "contribuicao": 0.95
+          },
+          {
+            "alvo": "H3_inverso",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.18
+          }
+        ],
+        "funcao_genio": "RACIOCINIO - resolver problemas complexos passo a passo"
+      },
+      "HPC_memoria": {
+        "ativacao_%": 9.6,
+        "nivel": "MINIMO",
+        "contribuicoes": [
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.24
+          }
+        ],
+        "funcao_genio": "MEMORIA - reter tudo, acessar instantaneamente, nunca esquecer"
+      },
+      "LC_NA_alerta": {
+        "ativacao_%": 64.0,
+        "nivel": "ALTO",
+        "contribuicoes": [
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "H3_inverso",
+            "contribuicao": 0.9
+          },
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.3
+          }
+        ],
+        "funcao_genio": "INSTINTO DE SOBREVIVENCIA - reacao ultra-rapida, estado de alerta"
+      },
+      "BG_padrao": {
+        "ativacao_%": 12.0,
+        "nivel": "MINIMO",
+        "contribuicoes": [
+          {
+            "alvo": "D1_PFC",
+            "contribuicao": 0.3
+          }
+        ],
+        "funcao_genio": "RECONHECIMENTO DE PADROES - ver ordem no caos, automatizar expertise"
+      },
+      "CB_predicao": {
+        "ativacao_%": 0.0,
+        "nivel": "MINIMO",
+        "contribuicoes": [],
+        "funcao_genio": "PREDICAO - antecipar consequencias, 'jogar xadrez mental 10 jogadas a frente'"
+      }
+    },
+    {
+      "DMN_criatividade": {
+        "ativacao_%": 80.0,
+        "nivel": "MAXIMO",
+        "contribuicoes": [
+          {
+            "alvo": "5HT2A_cortical",
+            "contribuicao": 0.9
+          },
+          {
+            "alvo": "D1_PFC",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "P2Y1_astrocitario",
+            "contribuicao": 0.7
+          }
+        ],
+        "funcao_genio": "CRIATIVIDADE - gerar ideias novas, fazer conexoes improvaveis"
+      },
+      "SN_intuicao": {
+        "ativacao_%": 36.0,
+        "nivel": "BAIXO",
+        "contribuicoes": [
+          {
+            "alvo": "5HT2A_cortical",
+            "contribuicao": 0.5
+          },
+          {
+            "alvo": "P2Y1_astrocitario",
+            "contribuicao": 0.4
+          }
+        ],
+        "funcao_genio": "INTUICAO - saber instantaneamente o que importa sem analise consciente"
+      },
+      "FPN_raciocinio": {
+        "ativacao_%": 50.0,
+        "nivel": "MODERADO",
+        "contribuicoes": [
+          {
+            "alvo": "5HT2A_cortical",
+            "contribuicao": 0.3
+          },
+          {
+            "alvo": "D1_PFC",
+            "contribuicao": 0.95
+          }
+        ],
+        "funcao_genio": "RACIOCINIO - resolver problemas complexos passo a passo"
+      },
+      "HPC_memoria": {
+        "ativacao_%": 40.8,
+        "nivel": "MODERADO",
+        "contribuicoes": [
+          {
+            "alvo": "P2Y1_astrocitario",
+            "contribuicao": 0.6
+          },
+          {
+            "alvo": "mGluR5",
+            "contribuicao": 0.42
+          }
+        ],
+        "funcao_genio": "MEMORIA - reter tudo, acessar instantaneamente, nunca esquecer"
+      },
+      "LC_NA_alerta": {
+        "ativacao_%": 0.0,
+        "nivel": "MINIMO",
+        "contribuicoes": [],
+        "funcao_genio": "INSTINTO DE SOBREVIVENCIA - reacao ultra-rapida, estado de alerta"
+      },
+      "BG_padrao": {
+        "ativacao_%": 26.4,
+        "nivel": "BAIXO",
+        "contribuicoes": [
+          {
+            "alvo": "D1_PFC",
+            "contribuicao": 0.3
+          },
+          {
+            "alvo": "mGluR5",
+            "contribuicao": 0.36
+          }
+        ],
+        "funcao_genio": "RECONHECIMENTO DE PADROES - ver ordem no caos, automatizar expertise"
+      },
+      "CB_predicao": {
+        "ativacao_%": 12.0,
+        "nivel": "MINIMO",
+        "contribuicoes": [
+          {
+            "alvo": "mGluR5",
+            "contribuicao": 0.3
+          }
+        ],
+        "funcao_genio": "PREDICAO - antecipar consequencias, 'jogar xadrez mental 10 jogadas a frente'"
+      }
+    },
+    {
+      "DMN_criatividade": {
+        "ativacao_%": 9.6,
+        "nivel": "MINIMO",
+        "contribuicoes": [
+          {
+            "alvo": "Cx43_astrocitario",
+            "contribuicao": 0.24
+          }
+        ],
+        "funcao_genio": "CRIATIVIDADE - gerar ideias novas, fazer conexoes improvaveis"
+      },
+      "SN_intuicao": {
+        "ativacao_%": 0.0,
+        "nivel": "MINIMO",
+        "contribuicoes": [],
+        "funcao_genio": "INTUICAO - saber instantaneamente o que importa sem analise consciente"
+      },
+      "FPN_raciocinio": {
+        "ativacao_%": 68.0,
+        "nivel": "ALTO",
+        "contribuicoes": [
+          {
+            "alvo": "S1P1_oligodendrocito",
+            "contribuicao": 0.7
+          },
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.3
+          },
+          {
+            "alvo": "GPR17_OPC",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "Cx43_astrocitario",
+            "contribuicao": 0.3
+          }
+        ],
+        "funcao_genio": "RACIOCINIO - resolver problemas complexos passo a passo"
+      },
+      "HPC_memoria": {
+        "ativacao_%": 30.4,
+        "nivel": "BAIXO",
+        "contribuicoes": [
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "Cx43_astrocitario",
+            "contribuicao": 0.36
+          }
+        ],
+        "funcao_genio": "MEMORIA - reter tudo, acessar instantaneamente, nunca esquecer"
+      },
+      "LC_NA_alerta": {
+        "ativacao_%": 20.0,
+        "nivel": "BAIXO",
+        "contribuicoes": [
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.5
+          }
+        ],
+        "funcao_genio": "INSTINTO DE SOBREVIVENCIA - reacao ultra-rapida, estado de alerta"
+      },
+      "BG_padrao": {
+        "ativacao_%": 56.0,
+        "nivel": "MODERADO",
+        "contribuicoes": [
+          {
+            "alvo": "S1P1_oligodendrocito",
+            "contribuicao": 0.8
+          },
+          {
+            "alvo": "GPR17_OPC",
+            "contribuicao": 0.6
+          }
+        ],
+        "funcao_genio": "RECONHECIMENTO DE PADROES - ver ordem no caos, automatizar expertise"
+      },
+      "CB_predicao": {
+        "ativacao_%": 48.0,
+        "nivel": "MODERADO",
+        "contribuicoes": [
+          {
+            "alvo": "S1P1_oligodendrocito",
+            "contribuicao": 0.7
+          },
+          {
+            "alvo": "GPR17_OPC",
+            "contribuicao": 0.5
+          }
+        ],
+        "funcao_genio": "PREDICAO - antecipar consequencias, 'jogar xadrez mental 10 jogadas a frente'"
+      }
+    },
+    {
+      "DMN_criatividade": {
+        "ativacao_%": 0.0,
+        "nivel": "MINIMO",
+        "contribuicoes": [],
+        "funcao_genio": "CRIATIVIDADE - gerar ideias novas, fazer conexoes improvaveis"
+      },
+      "SN_intuicao": {
+        "ativacao_%": 48.0,
+        "nivel": "MODERADO",
+        "contribuicoes": [
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.6
+          },
+          {
+            "alvo": "H3_inverso",
+            "contribuicao": 0.6
+          }
+        ],
+        "funcao_genio": "INTUICAO - saber instantaneamente o que importa sem analise consciente"
+      },
+      "FPN_raciocinio": {
+        "ativacao_%": 72.0,
+        "nivel": "ALTO",
+        "contribuicoes": [
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.8
+          },
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.3
+          },
+          {
+            "alvo": "H3_inverso",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "CSF1R_microglia",
+            "contribuicao": 0.3
+          }
+        ],
+        "funcao_genio": "RACIOCINIO - resolver problemas complexos passo a passo"
+      },
+      "HPC_memoria": {
+        "ativacao_%": 28.0,
+        "nivel": "BAIXO",
+        "contribuicoes": [
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "CSF1R_microglia",
+            "contribuicao": 0.3
+          }
+        ],
+        "funcao_genio": "MEMORIA - reter tudo, acessar instantaneamente, nunca esquecer"
+      },
+      "LC_NA_alerta": {
+        "ativacao_%": 72.0,
+        "nivel": "ALTO",
+        "contribuicoes": [
+          {
+            "alvo": "alpha7_nAChR",
+            "contribuicao": 0.4
+          },
+          {
+            "alvo": "sigma1",
+            "contribuicao": 0.5
+          },
+          {
+            "alvo": "H3_inverso",
+            "contribuicao": 0.9
+          }
+        ],
+        "funcao_genio": "INSTINTO DE SOBREVIVENCIA - reacao ultra-rapida, estado de alerta"
+      },
+      "BG_padrao": {
+        "ativacao_%": 9.6,
+        "nivel": "MINIMO",
+        "contribuicoes": [
+          {
+            "alvo": "CSF1R_microglia",
+            "contribuicao": 0.24
+          }
+        ],
+        "funcao_genio": "RECONHECIMENTO DE PADROES - ver ordem no caos, automatizar expertise"
+      },
+      "CB_predicao": {
+        "ativacao_%": 0.0,
+        "nivel": "MINIMO",
+        "contribuicoes": [],
+        "funcao_genio": "PREDICAO - antecipar consequencias, 'jogar xadrez mental 10 jogadas a frente'"
+      }
+    }
+  ],
+  "formula_final": {
+    "nome": "NEXUS FORMULA COMPLETA",
+    "versao": "1.0",
+    "componentes": [
+      {
+        "id": "NXS-3A8D9EEE",
+        "nome": "NEXUS-A (Cognitivo Central)",
+        "funcao_primaria": "Plasticidade sinaptica maxima + suporte astrocitario",
+        "indice_genio_individual": 37.8
+      },
+      {
+        "id": "NXS-737A141E",
+        "nome": "NEXUS-C (Criatividade-Intuicao)",
+        "funcao_primaria": "Pensamento divergente + sincronizacao glial global",
+        "indice_genio_individual": 36.4
+      },
+      {
+        "id": "NXS-EFB2B700",
+        "nome": "NEXUS-B (Foco Executivo)",
+        "funcao_primaria": "Atencao + working memory + vigilia lucida",
+        "indice_genio_individual": 35.6
+      }
+    ],
+    "cobertura": {
+      "total_alvos_neuronais": 7,
+      "total_alvos_gliais": 2,
+      "total_alvos": 9,
+      "total_possiveis": 13,
+      "cobertura_%": 69.2
+    },
+    "circuitos_ativados": {
+      "DMN_criatividade": {
+        "ativacao_combinada_%": 89.6,
+        "funcao": "CRIATIVIDADE - gerar ideias novas, fazer conexoes improvaveis",
+        "nivel": "MAXIMO"
+      },
+      "SN_intuicao": {
+        "ativacao_combinada_%": 68.9,
+        "funcao": "INTUICAO - saber instantaneamente o que importa sem analise consciente",
+        "nivel": "ALTO"
+      },
+      "FPN_raciocinio": {
+        "ativacao_combinada_%": 100,
+        "funcao": "RACIOCINIO - resolver problemas complexos passo a passo",
+        "nivel": "MAXIMO"
+      },
+      "HPC_memoria": {
+        "ativacao_combinada_%": 100,
+        "funcao": "MEMORIA - reter tudo, acessar instantaneamente, nunca esquecer",
+        "nivel": "MAXIMO"
+      },
+      "LC_NA_alerta": {
+        "ativacao_combinada_%": 51.5,
+        "funcao": "INSTINTO DE SOBREVIVENCIA - reacao ultra-rapida, estado de alerta",
+        "nivel": "MODERADO"
+      },
+      "BG_padrao": {
+        "ativacao_combinada_%": 43.7,
+        "funcao": "RECONHECIMENTO DE PADROES - ver ordem no caos, automatizar expertise",
+        "nivel": "MODERADO"
+      },
+      "CB_predicao": {
+        "ativacao_combinada_%": 22.4,
+        "funcao": "PREDICAO - antecipar consequencias, 'jogar xadrez mental 10 jogadas a frente'",
+        "nivel": "BAIXO"
+      }
+    },
+    "indice_genio_combinado": 69.9,
+    "classificacao_final": "SUPERIOR"
+  },
+  "efeitos_teoricos": {
+    "memoria": {
+      "tipo": "MEMORIA EXPANDIDA",
+      "baseline": "7 +/- 2 itens em working memory (Miller, 1956)",
+      "com_nexus": "Teoricamente 12-15 itens via LTP otimizado + suporte astrocitario",
+      "mecanismo": "NMDA NR2B (LTP) + TrkB/BDNF astrocitario + theta-gamma coupling",
+      "circuitos": [
+        "HPC_memoria"
+      ],
+      "analogia": "De HD para SSD - armazenamento mais rapido e acesso instantaneo"
+    },
+    "velocidade_processamento": {
+      "tipo": "VELOCIDADE NEURAL",
+      "baseline": "Velocidade de conducao ~1-100 m/s dependendo da mielinizacao",
+      "com_nexus": "Otimizar mielinizacao adaptativa -> mais velocidade onde necessario",
+      "mecanismo": "S1P1 (mielina) + GPR17 antagonismo (OPCs) + Cx43 (energia glial)",
+      "circuitos": [
+        "BG_padrao",
+        "CB_predicao",
+        "FPN_raciocinio"
+      ],
+      "analogia": "Upgrade de internet - de ADSL para fibra optica cerebral"
+    },
+    "criatividade": {
+      "tipo": "PENSAMENTO DIVERGENTE",
+      "baseline": "Maioria das pessoas gera 5-10 ideias em teste de usos alternativos",
+      "com_nexus": "Aumentar conectividade DMN-FPN -> associacoes remotas facilitadas",
+      "mecanismo": "5-HT2A PAM (flexibilidade) + P2Y1 astrocitario (sincronizacao) + D1 (seletividade)",
+      "circuitos": [
+        "DMN_criatividade",
+        "FPN_raciocinio"
+      ],
+      "analogia": "De busca local para busca global - Google vs busca manual"
+    },
+    "intuicao": {
+      "tipo": "PROCESSAMENTO PRE-CONSCIENTE",
+      "baseline": "Decisoes intuitivas corretas ~60% (maioria nao treina isso)",
+      "com_nexus": "Potenciar insula + amigdala -> gut feeling mais confiavel",
+      "mecanismo": "H3 inverso (alerta) + a7nAChR (filtro) + mielina rapida (S1P1)",
+      "circuitos": [
+        "SN_intuicao",
+        "LC_NA_alerta"
+      ],
+      "analogia": "De instinto bruto para radar calibrado de alta precisao"
+    },
+    "foco": {
+      "tipo": "ATENCAO SUSTENTADA",
+      "baseline": "Atencao sustentada media ~20 min antes de distorcao",
+      "com_nexus": "a7nAChR + D1 PFC otimo + H3 inverso -> estado de flow estavel",
+      "mecanismo": "Acetilcolina (atencao) + Dopamina (motivacao) + Histamina (vigilia)",
+      "circuitos": [
+        "FPN_raciocinio",
+        "SN_intuicao",
+        "LC_NA_alerta"
+      ],
+      "analogia": "De lanterna para laser - iluminacao focada e sustentada"
+    },
+    "reconhecimento_padroes": {
+      "tipo": "DETECCAO DE PADROES",
+      "baseline": "Requer ~10.000 horas para expertise em um dominio (Ericsson)",
+      "com_nexus": "Acelerar chunking estriatal + mielinizacao cortico-estriatal",
+      "mecanismo": "mGluR5 (plasticidade BG) + S1P1 (mielina) + D2 tonica (padrao)",
+      "circuitos": [
+        "BG_padrao",
+        "CB_predicao"
+      ],
+      "analogia": "De aprendiz para mestre - compressao temporal de expertise"
+    },
+    "neuroprotecao": {
+      "tipo": "RESILIENCIA CEREBRAL",
+      "baseline": "Estresse oxidativo + neuroinflamacao reduzem funcao com idade",
+      "com_nexus": "Sigma-1 (chaperona) + CSF1R (microglia controlada) + Cx43 (energia)",
+      "mecanismo": "Sigma1 -> estabilidade RE -> mitocondria saudavel -> ATP -> longevidade neural",
+      "circuitos": [
+        "HPC_memoria",
+        "FPN_raciocinio"
+      ],
+      "analogia": "De carro sem manutencao para Formula 1 com pit crew 24/7"
+    }
+  }
+}
